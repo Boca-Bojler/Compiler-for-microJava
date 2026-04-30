@@ -1,0 +1,215 @@
+INFO  18:38:06,782 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:38:06,800 - #2 program
+INFO  18:38:06,800 - #36 Vlasta
+INFO  18:38:06,801 - #5 const
+INFO  18:38:06,801 - #36 char
+INFO  18:38:06,801 - #36 c
+INFO  18:38:06,802 - #7 =
+INFO  18:38:06,802 - #39 c
+INFO  18:38:06,802 - #6 ;
+INFO  18:38:06,802 - #5 const
+INFO  18:38:06,804 - #36 int
+INFO  18:38:06,804 - #36 broj
+INFO  18:38:06,804 - #7 =
+INFO  18:38:06,804 - #37 5
+INFO  18:38:06,804 - #6 ;
+INFO  18:38:06,804 - #36 int
+INFO  18:38:06,804 - #36 x
+INFO  18:38:06,804 - #9 [
+INFO  18:38:06,804 - #10 ]
+INFO  18:38:06,804 - #6 ;
+INFO  18:38:06,805 - #11 enum
+INFO  18:38:06,805 - #36 Broj
+INFO  18:38:06,805 - #3 {
+INFO  18:38:06,806 - #36 NULA
+INFO  18:38:06,806 - #8 ,
+INFO  18:38:06,806 - #36 JEDAN
+INFO  18:38:06,806 - #8 ,
+INFO  18:38:06,806 - #36 TRI
+INFO  18:38:06,806 - #7 =
+INFO  18:38:06,806 - #37 3
+INFO  18:38:06,806 - #8 ,
+INFO  18:38:06,806 - #36 PET
+INFO  18:38:06,806 - #7 =
+INFO  18:38:06,806 - #37 5
+INFO  18:38:06,807 - #4 }
+INFO  18:38:06,807 - #3 {
+INFO  18:38:06,807 - #14 void
+INFO  18:38:06,807 - #36 main
+INFO  18:38:06,807 - #12 (
+INFO  18:38:06,808 - #13 )
+INFO  18:38:06,808 - #36 char
+INFO  18:38:06,808 - #36 a
+INFO  18:38:06,808 - #8 ,
+INFO  18:38:06,809 - #36 x
+INFO  18:38:06,809 - #9 [
+INFO  18:38:06,809 - #10 ]
+INFO  18:38:06,809 - #6 ;
+INFO  18:38:06,809 - #3 {
+INFO  18:38:06,809 - #36 x
+INFO  18:38:06,809 - #7 =
+INFO  18:38:06,810 - #23 new
+INFO  18:38:06,810 - #36 int
+INFO  18:38:06,810 - #9 [
+INFO  18:38:06,810 - #37 5
+INFO  18:38:06,810 - #10 ]
+INFO  18:38:06,811 - #6 ;
+INFO  18:38:06,811 - #4 }
+INFO  18:38:06,811 - #4 }
+INFO  18:38:06,815 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_const(
+          ConstVarEnumDeclList_eps(
+          ) [ConstVarEnumDeclList_eps]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDecl(
+             c
+              ConstantVar_char(
+               c
+              ) [ConstantVar_char]
+            ) [ConstDecl]
+            ConstDeclMore_eps(
+            ) [ConstDeclMore_eps]
+          ) [ConstDeclList]
+        ) [ConstVarEnumDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           broj
+            ConstantVar_num(
+             5
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_eps(
+      ) [VarDeclListRec_eps]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_std(
+         a
+        ) [VarDecl_std]
+        VarDeclMore_comma(
+          VarDecl_arr(
+           x
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_dsg(
+        DesignatorStatement_expr(
+          Designator_std(
+           x
+          ) [Designator_std]
+          Assignop(
+          ) [Assignop]
+          Expr(
+            CondExpr_simple(
+              CondFact_single(
+                AddTermList_term(
+                  Term(
+                    MulFactorList_factor(
+                      Factor(
+                        Unary_std(
+                          FactorContext_arr(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr(
+                              CondExpr_simple(
+                                CondFact_single(
+                                  AddTermList_term(
+                                    Term(
+                                      MulFactorList_factor(
+                                        Factor(
+                                          Unary_std(
+                                            FactorContext_num(
+                                             5
+                                            ) [FactorContext_num]
+                                          ) [Unary_std]
+                                        ) [Factor]
+                                      ) [MulFactorList_factor]
+                                    ) [Term]
+                                  ) [AddTermList_term]
+                                ) [CondFact_single]
+                              ) [CondExpr_simple]
+                            ) [Expr]
+                          ) [FactorContext_arr]
+                        ) [Unary_std]
+                      ) [Factor]
+                    ) [MulFactorList_factor]
+                  ) [Term]
+                ) [AddTermList_term]
+              ) [CondFact_single]
+            ) [CondExpr_simple]
+          ) [Expr]
+        ) [DesignatorStatement_expr]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  18:38:06,815 - =====================================================================
+ERROR 18:38:06,819 - GRESKA! Neadekvatna dodela vrednosti u promenljivu x na liniji 14
+INFO  18:38:06,819 - =====================================================================
+ERROR 18:38:06,819 - Parsiranje NIJE uspesno zavrseno!

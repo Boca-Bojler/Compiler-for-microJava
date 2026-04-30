@@ -1,0 +1,156 @@
+INFO  01:10:59,417 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:10:59,435 - #2 program
+INFO  01:10:59,435 - #36 Vlasta
+INFO  01:10:59,435 - #11 enum
+INFO  01:10:59,436 - #36 Broj
+INFO  01:10:59,436 - #3 {
+INFO  01:10:59,437 - #36 NULA
+INFO  01:10:59,437 - #8 ,
+INFO  01:10:59,437 - #36 PET
+INFO  01:10:59,437 - #7 =
+INFO  01:10:59,437 - #37 5
+INFO  01:10:59,437 - #4 }
+INFO  01:10:59,437 - #3 {
+INFO  01:10:59,438 - #14 void
+INFO  01:10:59,438 - #36 main
+INFO  01:10:59,438 - #12 (
+INFO  01:10:59,438 - #13 )
+INFO  01:10:59,438 - #36 int
+INFO  01:10:59,438 - #36 a
+INFO  01:10:59,438 - #8 ,
+INFO  01:10:59,438 - #36 b
+INFO  01:10:59,440 - #8 ,
+INFO  01:10:59,440 - #36 y
+INFO  01:10:59,440 - #9 [
+INFO  01:10:59,440 - #10 ]
+INFO  01:10:59,440 - #6 ;
+INFO  01:10:59,441 - #36 char
+INFO  01:10:59,441 - #36 carr
+INFO  01:10:59,441 - #9 [
+INFO  01:10:59,441 - #10 ]
+INFO  01:10:59,441 - #6 ;
+INFO  01:10:59,441 - #36 Broj
+INFO  01:10:59,442 - #36 var
+INFO  01:10:59,442 - #6 ;
+INFO  01:10:59,442 - #3 {
+INFO  01:10:59,442 - #36 var
+INFO  01:10:59,442 - #7 =
+INFO  01:10:59,442 - #37 5
+INFO  01:10:59,442 - #6 ;
+INFO  01:10:59,443 - #4 }
+INFO  01:10:59,443 - #4 }
+INFO  01:10:59,446 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    EnumDeclList(
+      EnumName(
+       Broj
+      ) [EnumName]
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_value(
+         PET
+         5
+        ) [EnumDecl_value]
+        EnumDeclMore_eps(
+        ) [EnumDeclMore_eps]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_eps(
+          ) [VarDeclListRec_eps]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_std(
+             a
+            ) [VarDecl_std]
+            VarDeclMore_comma(
+              VarDecl_std(
+               b
+              ) [VarDecl_std]
+              VarDeclMore_comma(
+                VarDecl_arr(
+                 y
+                ) [VarDecl_arr]
+                VarDeclMore_eps(
+                ) [VarDeclMore_eps]
+              ) [VarDeclMore_comma]
+            ) [VarDeclMore_comma]
+          ) [VarDeclList]
+        ) [VarDeclListRec_rec]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         Broj
+        ) [Type]
+        VarDecl_std(
+         var
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_dsg(
+        DesignatorStatement_expr(
+          Designator_std(
+           var
+          ) [Designator_std]
+          Assignop(
+          ) [Assignop]
+          Expr_addterm(
+            AddTermList_term(
+              Term(
+                MulFactorList_factor(
+                  Factor(
+                    Unary_std(
+                      FactorContext_num(
+                       5
+                      ) [FactorContext_num]
+                    ) [Unary_std]
+                  ) [Factor]
+                ) [MulFactorList_factor]
+              ) [Term]
+            ) [AddTermList_term]
+          ) [Expr_addterm]
+        ) [DesignatorStatement_expr]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  01:10:59,446 - =====================================================================
+INFO  01:10:59,452 - Var (int): a, 0, 1  na liniji 6
+INFO  01:10:59,452 - Var (int): b, 1, 1  na liniji 6
+INFO  01:10:59,453 - Array (int): y, 2, 1  na liniji 6
+INFO  01:10:59,453 - Array (char): carr, 3, 1  na liniji 6
+INFO  01:10:59,453 - Var (int): var, 4, 1  na liniji 6
+ERROR 01:10:59,453 - GRESKA! Neadekvatna dodela u promenljivu tipa enuma Broj na liniji 8
+INFO  01:10:59,453 - =====================================================================
+ERROR 01:10:59,453 - Parsiranje NIJE uspesno zavrseno!

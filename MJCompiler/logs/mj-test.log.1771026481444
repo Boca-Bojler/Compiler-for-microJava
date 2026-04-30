@@ -1,0 +1,8 @@
+INFO  00:47:13,283 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:47:13,302 - #2 program
+INFO  00:47:13,302 - #36 Vlasta
+INFO  00:47:13,302 - #3 {
+INFO  00:47:13,303 - #11 enum
+ERROR 00:47:13,303 - 
+Sintaksna greska na liniji 5
+ERROR 00:47:13,303 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

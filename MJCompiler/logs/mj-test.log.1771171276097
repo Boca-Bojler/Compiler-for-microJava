@@ -1,0 +1,217 @@
+INFO  16:49:56,805 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:49:56,825 - #2 program
+INFO  16:49:56,825 - #36 Vlasta
+INFO  16:49:56,825 - #11 enum
+INFO  16:49:56,826 - #36 Broj
+INFO  16:49:56,826 - #3 {
+INFO  16:49:56,826 - #36 NULA
+INFO  16:49:56,826 - #8 ,
+INFO  16:49:56,826 - #36 PET
+INFO  16:49:56,827 - #7 =
+INFO  16:49:56,827 - #37 5
+INFO  16:49:56,827 - #4 }
+INFO  16:49:56,827 - #11 enum
+INFO  16:49:56,827 - #36 Test
+INFO  16:49:56,827 - #3 {
+INFO  16:49:56,827 - #36 BRAT
+INFO  16:49:56,827 - #4 }
+INFO  16:49:56,828 - #3 {
+INFO  16:49:56,828 - #14 void
+INFO  16:49:56,828 - #36 main
+INFO  16:49:56,828 - #12 (
+INFO  16:49:56,828 - #13 )
+INFO  16:49:56,828 - #36 int
+INFO  16:49:56,829 - #36 a
+INFO  16:49:56,829 - #8 ,
+INFO  16:49:56,830 - #36 b
+INFO  16:49:56,830 - #8 ,
+INFO  16:49:56,830 - #36 y
+INFO  16:49:56,830 - #9 [
+INFO  16:49:56,830 - #10 ]
+INFO  16:49:56,830 - #6 ;
+INFO  16:49:56,830 - #36 char
+INFO  16:49:56,831 - #36 carr
+INFO  16:49:56,831 - #9 [
+INFO  16:49:56,831 - #10 ]
+INFO  16:49:56,831 - #6 ;
+INFO  16:49:56,831 - #36 Broj
+INFO  16:49:56,831 - #36 var
+INFO  16:49:56,831 - #6 ;
+INFO  16:49:56,831 - #36 bool
+INFO  16:49:56,831 - #36 bt
+INFO  16:49:56,832 - #6 ;
+INFO  16:49:56,832 - #3 {
+INFO  16:49:56,832 - #36 bt
+INFO  16:49:56,832 - #7 =
+INFO  16:49:56,832 - #38 0
+INFO  16:49:56,833 - #6 ;
+INFO  16:49:56,833 - #17 print
+INFO  16:49:56,833 - #12 (
+INFO  16:49:56,833 - #36 bt
+INFO  16:49:56,833 - #8 ,
+INFO  16:49:56,834 - #37 6
+INFO  16:49:56,834 - #13 )
+INFO  16:49:56,834 - #6 ;
+INFO  16:49:56,834 - #4 }
+INFO  16:49:56,834 - #4 }
+INFO  16:49:56,837 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_enum(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      EnumDeclList(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumDecl_std(
+         NULA
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           PET
+           5
+          ) [EnumDecl_value]
+          EnumDeclMore_eps(
+          ) [EnumDeclMore_eps]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclList]
+    ) [ConstVarEnumDeclList_enum]
+    EnumDeclList(
+      EnumName(
+       Test
+      ) [EnumName]
+      EnumDecl_std(
+       BRAT
+      ) [EnumDecl_std]
+      EnumDeclMore_eps(
+      ) [EnumDeclMore_eps]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_rec(
+            VarDeclListRec_eps(
+            ) [VarDeclListRec_eps]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_std(
+               a
+              ) [VarDecl_std]
+              VarDeclMore_comma(
+                VarDecl_std(
+                 b
+                ) [VarDecl_std]
+                VarDeclMore_comma(
+                  VarDecl_arr(
+                   y
+                  ) [VarDecl_arr]
+                  VarDeclMore_eps(
+                  ) [VarDeclMore_eps]
+                ) [VarDeclMore_comma]
+              ) [VarDeclMore_comma]
+            ) [VarDeclList]
+          ) [VarDeclListRec_rec]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_arr(
+             carr
+            ) [VarDecl_arr]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclList]
+        ) [VarDeclListRec_rec]
+        VarDeclList(
+          Type(
+           Broj
+          ) [Type]
+          VarDecl_std(
+           var
+          ) [VarDecl_std]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         bool
+        ) [Type]
+        VarDecl_std(
+         bt
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_statement(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_dsg(
+          DesignatorStatement_expr(
+            Designator_std(
+             bt
+            ) [Designator_std]
+            Assignop(
+            ) [Assignop]
+            Expr_addterm(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_bool(
+                         0
+                        ) [FactorContext_bool]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [Expr_addterm]
+          ) [DesignatorStatement_expr]
+        ) [Statement_dsg]
+      ) [StatementList_statement]
+      Statement_printMore(
+        Expr_addterm(
+          AddTermList_term(
+            Term(
+              MulFactorList_factor(
+                Factor(
+                  Unary_std(
+                    FactorContext_dsg(
+                      Designator_std(
+                       bt
+                      ) [Designator_std]
+                    ) [FactorContext_dsg]
+                  ) [Unary_std]
+                ) [Factor]
+              ) [MulFactorList_factor]
+            ) [Term]
+          ) [AddTermList_term]
+        ) [Expr_addterm]
+       6
+      ) [Statement_printMore]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  16:49:56,837 - =====================================================================
+INFO  16:49:56,844 - Var (int): a, 0, 1  na liniji 7
+INFO  16:49:56,844 - Var (int): b, 1, 1  na liniji 7
+INFO  16:49:56,844 - Array (int): y, 2, 1  na liniji 7
+INFO  16:49:56,844 - Array (char): carr, 3, 1  na liniji 7
+INFO  16:49:56,844 - Var (int): var, 4, 1  na liniji 7
+INFO  16:49:56,844 - Var (bool): bt, 5, 1  na liniji 7
+INFO  16:49:56,844 - =====================================================================
+INFO  16:49:56,847 - Parsiranje uspesno zavrseno!

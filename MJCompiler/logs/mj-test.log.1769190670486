@@ -1,0 +1,26 @@
+INFO  18:48:31,475 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:48:31,493 - #2 program
+INFO  18:48:31,493 - #36 test301
+INFO  18:48:31,493 - #11 enum
+INFO  18:48:31,493 - #36 Broj
+INFO  18:48:31,493 - #3 {
+INFO  18:48:31,493 - #36 NULA
+INFO  18:48:31,494 - #8 ,
+INFO  18:48:31,494 - #36 JEDAN
+INFO  18:48:31,494 - #8 ,
+INFO  18:48:31,494 - #36 PET
+INFO  18:48:31,494 - #7 =
+INFO  18:48:31,494 - #37 5
+INFO  18:48:31,494 - #8 ,
+INFO  18:48:31,494 - #36 DESET
+INFO  18:48:31,494 - #7 =
+INFO  18:48:31,494 - #37 10
+INFO  18:48:31,494 - #4 }
+INFO  18:48:31,495 - #5 const
+INFO  18:48:31,495 - #36 int
+INFO  18:48:31,495 - #36 nula
+INFO  18:48:31,495 - #7 =
+INFO  18:48:31,501 - #6 ;
+ERROR 18:48:31,502 - 
+Sintaksna greska na liniji 7
+ERROR 18:48:31,502 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

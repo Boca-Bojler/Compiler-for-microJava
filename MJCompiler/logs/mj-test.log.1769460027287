@@ -1,0 +1,51 @@
+INFO  21:40:17,497 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:40:17,515 - #2 program
+INFO  21:40:17,515 - #36 Vlasta
+INFO  21:40:17,515 - #5 const
+INFO  21:40:17,516 - #36 bool
+INFO  21:40:17,516 - #36 c
+INFO  21:40:17,516 - #7 =
+INFO  21:40:17,516 - #38 0
+INFO  21:40:17,516 - #6 ;
+INFO  21:40:17,517 - #3 {
+INFO  21:40:17,518 - #14 void
+INFO  21:40:17,518 - #36 main
+INFO  21:40:17,518 - #12 (
+INFO  21:40:17,518 - #13 )
+INFO  21:40:17,518 - #3 {
+INFO  21:40:17,518 - #4 }
+INFO  21:40:17,519 - #4 }
+INFO  21:40:17,520 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_bool(
+         0
+        ) [ConstantVar_bool]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  21:40:17,521 - =====================================================================
+INFO  21:40:17,524 - =====================================================================
+INFO  21:40:17,524 - Parsiranje uspesno zavrseno!

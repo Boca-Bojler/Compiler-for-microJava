@@ -1,0 +1,19 @@
+program Vlasta 
+
+enum Broj {DVA = 2, TRI}
+final int x[];
+final char carr[];
+
+{
+
+	void main() int y[]; bool bt; {
+		carr = new char[4];
+		carr[2] = 'a';
+		carr[0] = 'b';
+		carr[1] = 'c';
+		carr[3] = 'd';
+		read(carr[1]);
+		print(carr[2]);
+	}
+	
+}

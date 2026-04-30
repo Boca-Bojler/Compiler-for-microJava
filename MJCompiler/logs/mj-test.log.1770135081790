@@ -1,0 +1,168 @@
+INFO  17:09:38,490 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:09:38,507 - #2 program
+INFO  17:09:38,507 - #36 Vlasta
+INFO  17:09:38,507 - #5 const
+INFO  17:09:38,508 - #36 char
+INFO  17:09:38,508 - #36 c
+INFO  17:09:38,508 - #7 =
+INFO  17:09:38,509 - #39 c
+INFO  17:09:38,509 - #6 ;
+INFO  17:09:38,509 - #5 const
+INFO  17:09:38,510 - #36 int
+INFO  17:09:38,510 - #36 broj
+INFO  17:09:38,510 - #7 =
+INFO  17:09:38,510 - #37 5
+INFO  17:09:38,510 - #6 ;
+INFO  17:09:38,510 - #36 int
+INFO  17:09:38,510 - #36 x
+INFO  17:09:38,510 - #9 [
+INFO  17:09:38,510 - #10 ]
+INFO  17:09:38,510 - #6 ;
+INFO  17:09:38,511 - #11 enum
+INFO  17:09:38,512 - #36 Broj
+INFO  17:09:38,512 - #3 {
+INFO  17:09:38,512 - #36 NULA
+INFO  17:09:38,512 - #8 ,
+INFO  17:09:38,513 - #36 JEDAN
+INFO  17:09:38,513 - #8 ,
+INFO  17:09:38,513 - #36 TRI
+INFO  17:09:38,513 - #7 =
+INFO  17:09:38,513 - #37 3
+INFO  17:09:38,513 - #8 ,
+INFO  17:09:38,513 - #36 PET
+INFO  17:09:38,513 - #7 =
+INFO  17:09:38,513 - #37 5
+INFO  17:09:38,513 - #4 }
+INFO  17:09:38,514 - #3 {
+INFO  17:09:38,514 - #14 void
+INFO  17:09:38,514 - #36 main
+INFO  17:09:38,514 - #12 (
+INFO  17:09:38,515 - #13 )
+INFO  17:09:38,515 - #36 int
+INFO  17:09:38,515 - #36 a
+INFO  17:09:38,515 - #8 ,
+INFO  17:09:38,515 - #36 x
+INFO  17:09:38,515 - #9 [
+INFO  17:09:38,516 - #10 ]
+INFO  17:09:38,516 - #6 ;
+INFO  17:09:38,516 - #3 {
+INFO  17:09:38,516 - #36 c
+INFO  17:09:38,516 - #18 ++
+INFO  17:09:38,516 - #6 ;
+INFO  17:09:38,516 - #4 }
+INFO  17:09:38,516 - #4 }
+INFO  17:09:38,519 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_const(
+          ConstVarEnumDeclList_eps(
+          ) [ConstVarEnumDeclList_eps]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDecl(
+             c
+              ConstantVar_char(
+               c
+              ) [ConstantVar_char]
+            ) [ConstDecl]
+            ConstDeclMore_eps(
+            ) [ConstDeclMore_eps]
+          ) [ConstDeclList]
+        ) [ConstVarEnumDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           broj
+            ConstantVar_num(
+             5
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_eps(
+      ) [VarDeclListRec_eps]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_std(
+         a
+        ) [VarDecl_std]
+        VarDeclMore_comma(
+          VarDecl_arr(
+           x
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_dsg(
+        DesignatorStatement_inc(
+          Designator_std(
+           c
+          ) [Designator_std]
+        ) [DesignatorStatement_inc]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  17:09:38,519 - =====================================================================
+ERROR 17:09:38,524 - GRESKA! Nije moguce izvrsiti operaciju inkrementiranja nad tipomc na liniji 10
+INFO  17:09:38,524 - =====================================================================
+ERROR 17:09:38,524 - Parsiranje NIJE uspesno zavrseno!

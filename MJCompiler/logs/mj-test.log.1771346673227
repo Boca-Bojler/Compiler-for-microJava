@@ -1,0 +1,377 @@
+INFO  17:44:26,293 - Compiling source file: C:\Users\vlast\Downloads\MJCompiler-20260216T205643Z-3-001\MJCompiler\test\program.mj
+INFO  17:44:26,311 - #2 program
+INFO  17:44:26,311 - #37 Vlasta
+INFO  17:44:26,311 - #11 enum
+INFO  17:44:26,312 - #37 Broj
+INFO  17:44:26,312 - #3 {
+INFO  17:44:26,312 - #37 NULA
+INFO  17:44:26,312 - #8 ,
+INFO  17:44:26,313 - #37 PET
+INFO  17:44:26,313 - #7 =
+INFO  17:44:26,313 - #38 5
+INFO  17:44:26,313 - #4 }
+INFO  17:44:26,313 - #11 enum
+INFO  17:44:26,313 - #37 Test
+INFO  17:44:26,314 - #3 {
+INFO  17:44:26,314 - #37 BRAT
+INFO  17:44:26,314 - #4 }
+INFO  17:44:26,314 - #3 {
+INFO  17:44:26,314 - #14 void
+INFO  17:44:26,314 - #37 main
+INFO  17:44:26,314 - #12 (
+INFO  17:44:26,314 - #13 )
+INFO  17:44:26,315 - #37 int
+INFO  17:44:26,315 - #37 a
+INFO  17:44:26,315 - #8 ,
+INFO  17:44:26,315 - #37 b
+INFO  17:44:26,315 - #8 ,
+INFO  17:44:26,315 - #37 y
+INFO  17:44:26,315 - #9 [
+INFO  17:44:26,315 - #10 ]
+INFO  17:44:26,315 - #6 ;
+INFO  17:44:26,316 - #37 char
+INFO  17:44:26,316 - #37 carr
+INFO  17:44:26,316 - #9 [
+INFO  17:44:26,316 - #10 ]
+INFO  17:44:26,316 - #6 ;
+INFO  17:44:26,316 - #37 Broj
+INFO  17:44:26,316 - #37 var
+INFO  17:44:26,317 - #6 ;
+INFO  17:44:26,317 - #37 bool
+INFO  17:44:26,317 - #37 bt
+INFO  17:44:26,317 - #6 ;
+INFO  17:44:26,317 - #3 {
+INFO  17:44:26,317 - #37 y
+INFO  17:44:26,317 - #7 =
+INFO  17:44:26,318 - #23 new
+INFO  17:44:26,318 - #37 int
+INFO  17:44:26,318 - #9 [
+INFO  17:44:26,318 - #38 6
+INFO  17:44:26,318 - #10 ]
+INFO  17:44:26,319 - #6 ;
+INFO  17:44:26,319 - #37 y
+INFO  17:44:26,319 - #9 [
+INFO  17:44:26,319 - #38 1
+INFO  17:44:26,320 - #10 ]
+INFO  17:44:26,320 - #7 =
+INFO  17:44:26,320 - #38 4
+INFO  17:44:26,320 - #6 ;
+INFO  17:44:26,320 - #37 y
+INFO  17:44:26,320 - #9 [
+INFO  17:44:26,320 - #38 5
+INFO  17:44:26,320 - #10 ]
+INFO  17:44:26,320 - #7 =
+INFO  17:44:26,320 - #38 3
+INFO  17:44:26,320 - #6 ;
+INFO  17:44:26,320 - #37 b
+INFO  17:44:26,321 - #7 =
+INFO  17:44:26,321 - #37 a
+INFO  17:44:26,321 - #36 @
+INFO  17:44:26,321 - #38 5
+INFO  17:44:26,321 - #6 ;
+INFO  17:44:26,321 - #17 print
+INFO  17:44:26,321 - #12 (
+INFO  17:44:26,321 - #37 b
+INFO  17:44:26,321 - #13 )
+INFO  17:44:26,321 - #6 ;
+INFO  17:44:26,321 - #4 }
+INFO  17:44:26,321 - #4 }
+INFO  17:44:26,325 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_enum(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      EnumDeclList(
+        EnumName(
+         Broj
+        ) [EnumName]
+        EnumDecl_std(
+         NULA
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           PET
+           5
+          ) [EnumDecl_value]
+          EnumDeclMore_eps(
+          ) [EnumDeclMore_eps]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclList]
+    ) [ConstVarEnumDeclList_enum]
+    EnumDeclList(
+      EnumName(
+       Test
+      ) [EnumName]
+      EnumDecl_std(
+       BRAT
+      ) [EnumDecl_std]
+      EnumDeclMore_eps(
+      ) [EnumDeclMore_eps]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_rec(
+            VarDeclListRec_eps(
+            ) [VarDeclListRec_eps]
+            VarDeclList(
+              Type(
+               int
+              ) [Type]
+              VarDecl_std(
+               a
+              ) [VarDecl_std]
+              VarDeclMore_comma(
+                VarDecl_std(
+                 b
+                ) [VarDecl_std]
+                VarDeclMore_comma(
+                  VarDecl_arr(
+                   y
+                  ) [VarDecl_arr]
+                  VarDeclMore_eps(
+                  ) [VarDeclMore_eps]
+                ) [VarDeclMore_comma]
+              ) [VarDeclMore_comma]
+            ) [VarDeclList]
+          ) [VarDeclListRec_rec]
+          VarDeclList(
+            Type(
+             char
+            ) [Type]
+            VarDecl_arr(
+             carr
+            ) [VarDecl_arr]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclList]
+        ) [VarDeclListRec_rec]
+        VarDeclList(
+          Type(
+           Broj
+          ) [Type]
+          VarDecl_std(
+           var
+          ) [VarDecl_std]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         bool
+        ) [Type]
+        VarDecl_std(
+         bt
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_statement(
+        StatementList_statement(
+          StatementList_statement(
+            StatementList_statement(
+              StatementList_eps(
+              ) [StatementList_eps]
+              Statement_dsg(
+                DesignatorStatement_expr(
+                  Designator_std(
+                   y
+                  ) [Designator_std]
+                  Assignop(
+                  ) [Assignop]
+                  Expr_addterm(
+                    AddTermList_term(
+                      Term(
+                        MulFactorList_factor(
+                          Factor(
+                            Unary_std(
+                              FactorContext_arr(
+                                Type(
+                                 int
+                                ) [Type]
+                                Expr_addterm(
+                                  AddTermList_term(
+                                    Term(
+                                      MulFactorList_factor(
+                                        Factor(
+                                          Unary_std(
+                                            FactorContext_num(
+                                             6
+                                            ) [FactorContext_num]
+                                          ) [Unary_std]
+                                        ) [Factor]
+                                      ) [MulFactorList_factor]
+                                    ) [Term]
+                                  ) [AddTermList_term]
+                                ) [Expr_addterm]
+                              ) [FactorContext_arr]
+                            ) [Unary_std]
+                          ) [Factor]
+                        ) [MulFactorList_factor]
+                      ) [Term]
+                    ) [AddTermList_term]
+                  ) [Expr_addterm]
+                ) [DesignatorStatement_expr]
+              ) [Statement_dsg]
+            ) [StatementList_statement]
+            Statement_dsg(
+              DesignatorStatement_expr(
+                Designator_arr(
+                  DesArrName(
+                   y
+                  ) [DesArrName]
+                  Expr_addterm(
+                    AddTermList_term(
+                      Term(
+                        MulFactorList_factor(
+                          Factor(
+                            Unary_std(
+                              FactorContext_num(
+                               1
+                              ) [FactorContext_num]
+                            ) [Unary_std]
+                          ) [Factor]
+                        ) [MulFactorList_factor]
+                      ) [Term]
+                    ) [AddTermList_term]
+                  ) [Expr_addterm]
+                ) [Designator_arr]
+                Assignop(
+                ) [Assignop]
+                Expr_addterm(
+                  AddTermList_term(
+                    Term(
+                      MulFactorList_factor(
+                        Factor(
+                          Unary_std(
+                            FactorContext_num(
+                             4
+                            ) [FactorContext_num]
+                          ) [Unary_std]
+                        ) [Factor]
+                      ) [MulFactorList_factor]
+                    ) [Term]
+                  ) [AddTermList_term]
+                ) [Expr_addterm]
+              ) [DesignatorStatement_expr]
+            ) [Statement_dsg]
+          ) [StatementList_statement]
+          Statement_dsg(
+            DesignatorStatement_expr(
+              Designator_arr(
+                DesArrName(
+                 y
+                ) [DesArrName]
+                Expr_addterm(
+                  AddTermList_term(
+                    Term(
+                      MulFactorList_factor(
+                        Factor(
+                          Unary_std(
+                            FactorContext_num(
+                             5
+                            ) [FactorContext_num]
+                          ) [Unary_std]
+                        ) [Factor]
+                      ) [MulFactorList_factor]
+                    ) [Term]
+                  ) [AddTermList_term]
+                ) [Expr_addterm]
+              ) [Designator_arr]
+              Assignop(
+              ) [Assignop]
+              Expr_addterm(
+                AddTermList_term(
+                  Term(
+                    MulFactorList_factor(
+                      Factor(
+                        Unary_std(
+                          FactorContext_num(
+                           3
+                          ) [FactorContext_num]
+                        ) [Unary_std]
+                      ) [Factor]
+                    ) [MulFactorList_factor]
+                  ) [Term]
+                ) [AddTermList_term]
+              ) [Expr_addterm]
+            ) [DesignatorStatement_expr]
+          ) [Statement_dsg]
+        ) [StatementList_statement]
+        Statement_dsg(
+          DesignatorStatement_expr(
+            Designator_std(
+             b
+            ) [Designator_std]
+            Assignop(
+            ) [Assignop]
+            Expr_addterm(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_dsg(
+                          Designator_monkey(
+                            DesArrName(
+                             a
+                            ) [DesArrName]
+                            Monkey(
+                             5
+                            ) [Monkey]
+                          ) [Designator_monkey]
+                        ) [FactorContext_dsg]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [Expr_addterm]
+          ) [DesignatorStatement_expr]
+        ) [Statement_dsg]
+      ) [StatementList_statement]
+      Statement_print(
+        Expr_addterm(
+          AddTermList_term(
+            Term(
+              MulFactorList_factor(
+                Factor(
+                  Unary_std(
+                    FactorContext_dsg(
+                      Designator_std(
+                       b
+                      ) [Designator_std]
+                    ) [FactorContext_dsg]
+                  ) [Unary_std]
+                ) [Factor]
+              ) [MulFactorList_factor]
+            ) [Term]
+          ) [AddTermList_term]
+        ) [Expr_addterm]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  17:44:26,325 - =====================================================================
+INFO  17:44:26,332 - Var (int): a, 0, 1  na liniji 7
+INFO  17:44:26,332 - Var (int): b, 1, 1  na liniji 7
+INFO  17:44:26,332 - Array (int): y, 2, 1  na liniji 7
+INFO  17:44:26,332 - Array (char): carr, 3, 1  na liniji 7
+INFO  17:44:26,332 - Var (int): var, 4, 1  na liniji 7
+INFO  17:44:26,332 - Var (bool): bt, 5, 1  na liniji 7
+ERROR 17:44:26,332 - GRESKA! Neadekvatna promenljiva niza a na liniji 12
+ERROR 17:44:26,332 - GRESKA! Koriscenje operatora @ nad promenljivom koja nije niz na liniji 12
+ERROR 17:44:26,332 - GRESKA! Neadekvatna dodela vrednosti u promenljivu b na liniji 12
+INFO  17:44:26,333 - =====================================================================
+ERROR 17:44:26,333 - Parsiranje NIJE uspesno zavrseno!

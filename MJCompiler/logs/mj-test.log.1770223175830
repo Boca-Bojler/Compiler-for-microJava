@@ -1,0 +1,269 @@
+INFO  17:39:03,725 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:39:03,743 - #2 program
+INFO  17:39:03,743 - #36 Vlasta
+INFO  17:39:03,743 - #5 const
+INFO  17:39:03,744 - #36 char
+INFO  17:39:03,744 - #36 c
+INFO  17:39:03,744 - #7 =
+INFO  17:39:03,745 - #39 c
+INFO  17:39:03,745 - #6 ;
+INFO  17:39:03,745 - #5 const
+INFO  17:39:03,746 - #36 int
+INFO  17:39:03,746 - #36 broj
+INFO  17:39:03,746 - #7 =
+INFO  17:39:03,746 - #37 5
+INFO  17:39:03,746 - #6 ;
+INFO  17:39:03,746 - #36 int
+INFO  17:39:03,746 - #36 x
+INFO  17:39:03,746 - #9 [
+INFO  17:39:03,746 - #10 ]
+INFO  17:39:03,746 - #6 ;
+INFO  17:39:03,747 - #11 enum
+INFO  17:39:03,747 - #36 Broj
+INFO  17:39:03,747 - #3 {
+INFO  17:39:03,748 - #36 NULA
+INFO  17:39:03,748 - #8 ,
+INFO  17:39:03,748 - #36 JEDAN
+INFO  17:39:03,748 - #8 ,
+INFO  17:39:03,748 - #36 TRI
+INFO  17:39:03,748 - #7 =
+INFO  17:39:03,748 - #37 3
+INFO  17:39:03,748 - #8 ,
+INFO  17:39:03,748 - #36 PET
+INFO  17:39:03,748 - #7 =
+INFO  17:39:03,749 - #37 5
+INFO  17:39:03,749 - #4 }
+INFO  17:39:03,749 - #3 {
+INFO  17:39:03,749 - #14 void
+INFO  17:39:03,749 - #36 main
+INFO  17:39:03,749 - #12 (
+INFO  17:39:03,750 - #13 )
+INFO  17:39:03,750 - #36 char
+INFO  17:39:03,751 - #36 a
+INFO  17:39:03,751 - #8 ,
+INFO  17:39:03,751 - #36 x
+INFO  17:39:03,751 - #9 [
+INFO  17:39:03,751 - #10 ]
+INFO  17:39:03,751 - #6 ;
+INFO  17:39:03,752 - #36 int
+INFO  17:39:03,752 - #36 b
+INFO  17:39:03,752 - #6 ;
+INFO  17:39:03,752 - #3 {
+INFO  17:39:03,752 - #36 x
+INFO  17:39:03,752 - #7 =
+INFO  17:39:03,752 - #23 new
+INFO  17:39:03,752 - #36 char
+INFO  17:39:03,753 - #9 [
+INFO  17:39:03,753 - #37 5
+INFO  17:39:03,753 - #10 ]
+INFO  17:39:03,754 - #6 ;
+INFO  17:39:03,754 - #36 b
+INFO  17:39:03,754 - #7 =
+INFO  17:39:03,754 - #36 z
+INFO  17:39:03,754 - #24 .
+INFO  17:39:03,754 - #25 length
+INFO  17:39:03,754 - #6 ;
+INFO  17:39:03,754 - #4 }
+INFO  17:39:03,755 - #4 }
+INFO  17:39:03,758 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_const(
+          ConstVarEnumDeclList_eps(
+          ) [ConstVarEnumDeclList_eps]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDecl(
+             c
+              ConstantVar_char(
+               c
+              ) [ConstantVar_char]
+            ) [ConstDecl]
+            ConstDeclMore_eps(
+            ) [ConstDeclMore_eps]
+          ) [ConstDeclList]
+        ) [ConstVarEnumDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           broj
+            ConstantVar_num(
+             5
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_eps(
+        ) [VarDeclListRec_eps]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_std(
+           a
+          ) [VarDecl_std]
+          VarDeclMore_comma(
+            VarDecl_arr(
+             x
+            ) [VarDecl_arr]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_std(
+         b
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_statement(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_dsg(
+          DesignatorStatement_expr(
+            Designator_std(
+             x
+            ) [Designator_std]
+            Assignop(
+            ) [Assignop]
+            Expr(
+              CondExpr_simple(
+                CondFact_single(
+                  AddTermList_term(
+                    Term(
+                      MulFactorList_factor(
+                        Factor(
+                          Unary_std(
+                            FactorContext_arr(
+                              Type(
+                               char
+                              ) [Type]
+                              Expr(
+                                CondExpr_simple(
+                                  CondFact_single(
+                                    AddTermList_term(
+                                      Term(
+                                        MulFactorList_factor(
+                                          Factor(
+                                            Unary_std(
+                                              FactorContext_num(
+                                               5
+                                              ) [FactorContext_num]
+                                            ) [Unary_std]
+                                          ) [Factor]
+                                        ) [MulFactorList_factor]
+                                      ) [Term]
+                                    ) [AddTermList_term]
+                                  ) [CondFact_single]
+                                ) [CondExpr_simple]
+                              ) [Expr]
+                            ) [FactorContext_arr]
+                          ) [Unary_std]
+                        ) [Factor]
+                      ) [MulFactorList_factor]
+                    ) [Term]
+                  ) [AddTermList_term]
+                ) [CondFact_single]
+              ) [CondExpr_simple]
+            ) [Expr]
+          ) [DesignatorStatement_expr]
+        ) [Statement_dsg]
+      ) [StatementList_statement]
+      Statement_dsg(
+        DesignatorStatement_expr(
+          Designator_std(
+           b
+          ) [Designator_std]
+          Assignop(
+          ) [Assignop]
+          Expr(
+            CondExpr_simple(
+              CondFact_single(
+                AddTermList_term(
+                  Term(
+                    MulFactorList_factor(
+                      Factor(
+                        Unary_std(
+                          FactorContext_dsg(
+                            Designator_length(
+                             z
+                            ) [Designator_length]
+                          ) [FactorContext_dsg]
+                        ) [Unary_std]
+                      ) [Factor]
+                    ) [MulFactorList_factor]
+                  ) [Term]
+                ) [AddTermList_term]
+              ) [CondFact_single]
+            ) [CondExpr_simple]
+          ) [Expr]
+        ) [DesignatorStatement_expr]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  17:39:03,758 - =====================================================================
+ERROR 17:39:03,764 - GRESKA! Pristup promenljivoj z koja ne postoji na liniji 15
+ERROR 17:39:03,764 - GRESKA! Neadekvatna dodela vrednosti u promenljivu b na liniji 15
+INFO  17:39:03,764 - =====================================================================
+ERROR 17:39:03,764 - Parsiranje NIJE uspesno zavrseno!

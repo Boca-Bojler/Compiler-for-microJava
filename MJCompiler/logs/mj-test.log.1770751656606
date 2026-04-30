@@ -1,0 +1,148 @@
+INFO  20:25:42,717 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:25:42,734 - #2 program
+INFO  20:25:42,734 - #36 Vlasta
+INFO  20:25:42,734 - #5 const
+INFO  20:25:42,735 - #36 int
+INFO  20:25:42,735 - #36 pi
+INFO  20:25:42,735 - #7 =
+INFO  20:25:42,736 - #37 3
+INFO  20:25:42,736 - #6 ;
+INFO  20:25:42,736 - #36 int
+INFO  20:25:42,737 - #36 x
+INFO  20:25:42,737 - #8 ,
+INFO  20:25:42,737 - #36 y
+INFO  20:25:42,737 - #9 [
+INFO  20:25:42,737 - #10 ]
+INFO  20:25:42,737 - #6 ;
+INFO  20:25:42,737 - #3 {
+INFO  20:25:42,737 - #14 void
+INFO  20:25:42,738 - #36 main
+INFO  20:25:42,738 - #12 (
+INFO  20:25:42,738 - #13 )
+INFO  20:25:42,738 - #36 int
+INFO  20:25:42,738 - #36 a
+INFO  20:25:42,739 - #8 ,
+INFO  20:25:42,739 - #36 b
+INFO  20:25:42,739 - #6 ;
+INFO  20:25:42,739 - #36 char
+INFO  20:25:42,739 - #36 carr
+INFO  20:25:42,739 - #9 [
+INFO  20:25:42,739 - #10 ]
+INFO  20:25:42,739 - #6 ;
+INFO  20:25:42,740 - #3 {
+INFO  20:25:42,740 - #17 print
+INFO  20:25:42,740 - #12 (
+INFO  20:25:42,740 - #37 1
+INFO  20:25:42,740 - #13 )
+INFO  20:25:42,741 - #6 ;
+INFO  20:25:42,742 - #4 }
+INFO  20:25:42,742 - #4 }
+INFO  20:25:42,744 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_var(
+    ConstVarEnumDeclList_const(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          ConstantVar_num(
+           3
+          ) [ConstantVar_num]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclList]
+    ) [ConstVarEnumDeclList_const]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_std(
+       x
+      ) [VarDecl_std]
+      VarDeclMore_comma(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConstVarEnumDeclList_var]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_eps(
+        ) [VarDeclListRec_eps]
+        VarDeclList(
+          Type(
+           int
+          ) [Type]
+          VarDecl_std(
+           a
+          ) [VarDecl_std]
+          VarDeclMore_comma(
+            VarDecl_std(
+             b
+            ) [VarDecl_std]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclMore_comma]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_arr(
+         carr
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_print(
+        Expr(
+          CondExpr_simple(
+            CondFact_single(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_num(
+                         1
+                        ) [FactorContext_num]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [CondFact_single]
+          ) [CondExpr_simple]
+        ) [Expr]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  20:25:42,744 - =====================================================================
+INFO  20:25:42,750 - Con (int): pi, 3, 0  na liniji 3
+INFO  20:25:42,750 - Var (int): x, 0, 0  na liniji 4
+INFO  20:25:42,750 - Array (int): y, 1, 0  na liniji 4
+INFO  20:25:42,750 - Var (int): a, 0, 1  na liniji 7
+INFO  20:25:42,750 - Var (int): b, 1, 1  na liniji 7
+INFO  20:25:42,750 - Array (char): carr, 2, 1  na liniji 7
+INFO  20:25:42,750 - =====================================================================
+INFO  20:25:42,753 - Generisanje uspesno zavrseno!

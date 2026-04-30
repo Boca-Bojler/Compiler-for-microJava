@@ -1,0 +1,203 @@
+INFO  14:45:55,193 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  14:45:55,212 - #2 program
+INFO  14:45:55,212 - #36 Vlasta
+INFO  14:45:55,212 - #5 const
+INFO  14:45:55,213 - #36 char
+INFO  14:45:55,213 - #36 c
+INFO  14:45:55,213 - #7 =
+INFO  14:45:55,213 - #39 c
+INFO  14:45:55,213 - #6 ;
+INFO  14:45:55,214 - #5 const
+INFO  14:45:55,214 - #36 int
+INFO  14:45:55,214 - #36 broj
+INFO  14:45:55,214 - #7 =
+INFO  14:45:55,214 - #37 5
+INFO  14:45:55,214 - #6 ;
+INFO  14:45:55,214 - #11 enum
+INFO  14:45:55,214 - #36 Broj
+INFO  14:45:55,215 - #3 {
+INFO  14:45:55,215 - #36 NULA
+INFO  14:45:55,215 - #8 ,
+INFO  14:45:55,215 - #36 JEDAN
+INFO  14:45:55,215 - #8 ,
+INFO  14:45:55,215 - #36 TRI
+INFO  14:45:55,215 - #7 =
+INFO  14:45:55,216 - #37 3
+INFO  14:45:55,216 - #8 ,
+INFO  14:45:55,216 - #36 PET
+INFO  14:45:55,216 - #7 =
+INFO  14:45:55,216 - #37 5
+INFO  14:45:55,216 - #4 }
+INFO  14:45:55,216 - #3 {
+INFO  14:45:55,217 - #14 void
+INFO  14:45:55,217 - #36 main
+INFO  14:45:55,217 - #12 (
+INFO  14:45:55,217 - #13 )
+INFO  14:45:55,218 - #3 {
+INFO  14:45:55,218 - #17 print
+INFO  14:45:55,218 - #12 (
+INFO  14:45:55,218 - #36 c
+INFO  14:45:55,218 - #26 ==
+INFO  14:45:55,219 - #39 c
+INFO  14:45:55,220 - #20 ?
+INFO  14:45:55,220 - #38 1
+INFO  14:45:55,220 - #21 :
+INFO  14:45:55,220 - #38 0
+INFO  14:45:55,221 - #13 )
+INFO  14:45:55,221 - #6 ;
+INFO  14:45:55,221 - #4 }
+INFO  14:45:55,221 - #4 }
+INFO  14:45:55,224 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_const(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_eps(
+        ) [ConstVarEnumDeclList_eps]
+        ConstDeclList(
+          Type(
+           char
+          ) [Type]
+          ConstDecl(
+           c
+            ConstantVar_char(
+             c
+            ) [ConstantVar_char]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         broj
+          ConstantVar_num(
+           5
+          ) [ConstantVar_num]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclList]
+    ) [ConstVarEnumDeclList_const]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_print(
+        Expr_ternary(
+          CondExpr_ternary(
+            CondFact_rel(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_dsg(
+                          Designator_more(
+                           c
+                            DesignatorMore_eps(
+                            ) [DesignatorMore_eps]
+                          ) [Designator_more]
+                        ) [FactorContext_dsg]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+              Relop_equal(
+              ) [Relop_equal]
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_char(
+                         c
+                        ) [FactorContext_char]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [CondFact_rel]
+            Expr_ternary(
+              CondExpr_simple(
+                CondFact_single(
+                  AddTermList_term(
+                    Term(
+                      MulFactorList_factor(
+                        Factor(
+                          Unary_std(
+                            FactorContext_bool(
+                             1
+                            ) [FactorContext_bool]
+                          ) [Unary_std]
+                        ) [Factor]
+                      ) [MulFactorList_factor]
+                    ) [Term]
+                  ) [AddTermList_term]
+                ) [CondFact_single]
+              ) [CondExpr_simple]
+            ) [Expr_ternary]
+            CondExpr_simple(
+              CondFact_single(
+                AddTermList_term(
+                  Term(
+                    MulFactorList_factor(
+                      Factor(
+                        Unary_std(
+                          FactorContext_bool(
+                           0
+                          ) [FactorContext_bool]
+                        ) [Unary_std]
+                      ) [Factor]
+                    ) [MulFactorList_factor]
+                  ) [Term]
+                ) [AddTermList_term]
+              ) [CondFact_single]
+            ) [CondExpr_simple]
+          ) [CondExpr_ternary]
+        ) [Expr_ternary]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  14:45:55,225 - =====================================================================
+INFO  14:45:55,228 - =====================================================================
+INFO  14:45:55,228 - Parsiranje uspesno zavrseno!

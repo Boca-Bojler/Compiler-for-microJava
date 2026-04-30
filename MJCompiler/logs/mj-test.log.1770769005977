@@ -1,0 +1,33 @@
+INFO  01:16:31,375 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:16:31,394 - #2 program
+INFO  01:16:31,394 - #36 Vlasta
+INFO  01:16:31,394 - #5 const
+INFO  01:16:31,395 - #36 int
+INFO  01:16:31,395 - #36 pi
+INFO  01:16:31,396 - #7 =
+INFO  01:16:31,396 - #37 3
+INFO  01:16:31,396 - #6 ;
+INFO  01:16:31,396 - #36 int
+INFO  01:16:31,397 - #36 x
+INFO  01:16:31,397 - #8 ,
+INFO  01:16:31,397 - #36 y
+INFO  01:16:31,397 - #9 [
+INFO  01:16:31,397 - #10 ]
+INFO  01:16:31,397 - #6 ;
+INFO  01:16:31,397 - #11 enum
+INFO  01:16:31,397 - #36 Broj
+INFO  01:16:31,398 - #3 {
+INFO  01:16:31,398 - #36 JEDAN
+INFO  01:16:31,398 - #7 =
+INFO  01:16:31,398 - #37 1
+INFO  01:16:31,398 - #8 ,
+INFO  01:16:31,399 - #36 PET
+INFO  01:16:31,399 - #7 =
+INFO  01:16:31,399 - #37 5
+INFO  01:16:31,399 - #8 ,
+INFO  01:16:31,399 - #36 SEDAM
+INFO  01:16:31,399 - #4 }
+INFO  01:16:31,400 - #6 ;
+ERROR 01:16:31,400 - 
+Sintaksna greska na liniji 5
+ERROR 01:16:31,400 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

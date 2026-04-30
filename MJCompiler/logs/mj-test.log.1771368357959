@@ -1,0 +1,130 @@
+INFO  23:45:44,350 - Compiling source file: C:\Users\vlast\Downloads\MJCompiler-20260216T205643Z-3-001\MJCompiler\test\program.mj
+INFO  23:45:44,370 - #2 program
+INFO  23:45:44,370 - #37 Vlasta
+INFO  23:45:44,370 - #18 final
+INFO  23:45:44,370 - #37 int
+INFO  23:45:44,371 - #37 x
+INFO  23:45:44,371 - #9 [
+INFO  23:45:44,371 - #10 ]
+INFO  23:45:44,371 - #6 ;
+INFO  23:45:44,372 - #3 {
+INFO  23:45:44,372 - #14 void
+INFO  23:45:44,372 - #37 main
+INFO  23:45:44,372 - #12 (
+INFO  23:45:44,372 - #13 )
+INFO  23:45:44,372 - #18 final
+INFO  23:45:44,373 - #37 int
+INFO  23:45:44,373 - #37 y
+INFO  23:45:44,373 - #9 [
+INFO  23:45:44,373 - #10 ]
+INFO  23:45:44,373 - #6 ;
+INFO  23:45:44,373 - #37 char
+INFO  23:45:44,373 - #37 carr
+INFO  23:45:44,374 - #9 [
+INFO  23:45:44,374 - #10 ]
+INFO  23:45:44,374 - #6 ;
+INFO  23:45:44,374 - #37 Broj
+INFO  23:45:44,374 - #37 var
+INFO  23:45:44,374 - #6 ;
+INFO  23:45:44,374 - #37 bool
+INFO  23:45:44,374 - #37 bt
+INFO  23:45:44,374 - #6 ;
+INFO  23:45:44,374 - #3 {
+INFO  23:45:44,374 - #4 }
+INFO  23:45:44,375 - #4 }
+INFO  23:45:44,376 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_var(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    VarDeclList_std(
+      Final_std(
+      ) [Final_std]
+      Type(
+       int
+      ) [Type]
+      VarDecl_arr(
+       x
+      ) [VarDecl_arr]
+      VarDeclMore_eps(
+      ) [VarDeclMore_eps]
+    ) [VarDeclList_std]
+  ) [ConstVarEnumDeclList_var]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_rec(
+            VarDeclListRec_eps(
+            ) [VarDeclListRec_eps]
+            VarDeclList_std(
+              Final_std(
+              ) [Final_std]
+              Type(
+               int
+              ) [Type]
+              VarDecl_arr(
+               y
+              ) [VarDecl_arr]
+              VarDeclMore_eps(
+              ) [VarDeclMore_eps]
+            ) [VarDeclList_std]
+          ) [VarDeclListRec_rec]
+          VarDeclList_std(
+            Final_eps(
+            ) [Final_eps]
+            Type(
+             char
+            ) [Type]
+            VarDecl_arr(
+             carr
+            ) [VarDecl_arr]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclList_std]
+        ) [VarDeclListRec_rec]
+        VarDeclList_std(
+          Final_eps(
+          ) [Final_eps]
+          Type(
+           Broj
+          ) [Type]
+          VarDecl_std(
+           var
+          ) [VarDecl_std]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList_std]
+      ) [VarDeclListRec_rec]
+      VarDeclList_std(
+        Final_eps(
+        ) [Final_eps]
+        Type(
+         bool
+        ) [Type]
+        VarDecl_std(
+         bt
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList_std]
+    ) [VarDeclListRec_rec]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  23:45:44,376 - =====================================================================
+INFO  23:45:44,381 - Array (int): x, 0, 0  na liniji 3
+INFO  23:45:44,382 - Array (int): y, 0, 1  na liniji 6
+ERROR 23:45:44,382 - GRESKA! Identifikator final iskoriscen nad lokalnim promenljivama na liniji 6
+INFO  23:45:44,382 - Array (char): carr, 1, 1  na liniji 6
+ERROR 23:45:44,382 - GRESKA! Nepostojeci tip podatka: Broj na liniji 6
+INFO  23:45:44,382 - Var (): var, 2, 1  na liniji 6
+INFO  23:45:44,382 - Var (bool): bt, 3, 1  na liniji 6
+INFO  23:45:44,382 - =====================================================================
+ERROR 23:45:44,383 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,52 @@
+INFO  21:39:50,139 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:39:50,158 - #2 program
+INFO  21:39:50,159 - #36 Vlasta
+INFO  21:39:50,159 - #5 const
+INFO  21:39:50,160 - #36 Vlasta
+INFO  21:39:50,160 - #36 pi
+INFO  21:39:50,160 - #7 =
+INFO  21:39:50,160 - #37 3
+INFO  21:39:50,160 - #6 ;
+INFO  21:39:50,161 - #3 {
+INFO  21:39:50,161 - #14 void
+INFO  21:39:50,161 - #36 main
+INFO  21:39:50,161 - #12 (
+INFO  21:39:50,162 - #13 )
+INFO  21:39:50,162 - #3 {
+INFO  21:39:50,162 - #4 }
+INFO  21:39:50,162 - #4 }
+INFO  21:39:50,164 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       Vlasta
+      ) [Type]
+      ConstDecl(
+       pi
+        ConstantVar_num(
+         3
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  21:39:50,165 - =====================================================================
+ERROR 21:39:50,168 - Neadekvatan tip podatka: Vlasta na liniji 3
+INFO  21:39:50,168 - =====================================================================
+ERROR 21:39:50,169 - Parsiranje NIJE uspesno zavrseno!

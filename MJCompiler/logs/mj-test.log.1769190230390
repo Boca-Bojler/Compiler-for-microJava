@@ -1,0 +1,114 @@
+INFO  18:42:29,822 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:42:29,841 - #2 program
+INFO  18:42:29,841 - #36 Vlasta
+INFO  18:42:29,841 - #5 const
+INFO  18:42:29,841 - #36 int
+INFO  18:42:29,841 - #36 x
+INFO  18:42:29,842 - #7 =
+INFO  18:42:29,842 - #37 3
+INFO  18:42:29,842 - #8 ,
+INFO  18:42:29,842 - #36 char
+INFO  18:42:29,842 - #7 =
+INFO  18:42:29,842 - #39 c
+INFO  18:42:29,842 - #6 ;
+INFO  18:42:29,843 - #3 {
+INFO  18:42:29,843 - #14 void
+INFO  18:42:29,843 - #36 main
+INFO  18:42:29,843 - #12 (
+INFO  18:42:29,844 - #13 )
+INFO  18:42:29,844 - #36 int
+INFO  18:42:29,844 - #36 arr
+INFO  18:42:29,844 - #9 [
+INFO  18:42:29,844 - #10 ]
+INFO  18:42:29,844 - #8 ,
+INFO  18:42:29,845 - #36 sum
+INFO  18:42:29,845 - #6 ;
+INFO  18:42:29,846 - #36 char
+INFO  18:42:29,846 - #36 c
+INFO  18:42:29,846 - #6 ;
+INFO  18:42:29,846 - #36 bool
+INFO  18:42:29,846 - #36 positive
+INFO  18:42:29,846 - #6 ;
+INFO  18:42:29,846 - #3 {
+INFO  18:42:29,847 - #4 }
+INFO  18:42:29,847 - #4 }
+INFO  18:42:29,850 - Program(
+ Vlasta
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       x
+        ConstantVar_num(
+         3
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_comma(
+        ConstDecl(
+         char
+          ConstantVar_char(
+           c
+          ) [ConstantVar_char]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_eps(
+          ) [VarDeclListRec_eps]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             arr
+            ) [VarDecl_arr]
+            VarDeclMore_comma(
+              VarDecl_std(
+               sum
+              ) [VarDecl_std]
+              VarDeclMore_eps(
+              ) [VarDeclMore_eps]
+            ) [VarDeclMore_comma]
+          ) [VarDeclList]
+        ) [VarDeclListRec_rec]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_std(
+           c
+          ) [VarDecl_std]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         bool
+        ) [Type]
+        VarDecl_std(
+         positive
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  18:42:29,850 - =====================================================================
+INFO  18:42:29,850 - Parsiranje uspesno zavrseno!

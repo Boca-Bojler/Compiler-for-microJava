@@ -1,0 +1,73 @@
+INFO  00:54:14,492 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:54:14,512 - #2 program
+INFO  00:54:14,512 - #36 Vlasta
+INFO  00:54:14,512 - #5 const
+INFO  00:54:14,513 - #36 char
+INFO  00:54:14,513 - #36 c
+INFO  00:54:14,513 - #7 =
+INFO  00:54:14,513 - #38 0
+INFO  00:54:14,513 - #6 ;
+INFO  00:54:14,514 - #5 const
+INFO  00:54:14,514 - #36 int
+INFO  00:54:14,514 - #36 broj
+INFO  00:54:14,514 - #7 =
+INFO  00:54:14,514 - #37 5
+INFO  00:54:14,514 - #6 ;
+INFO  00:54:14,516 - #3 {
+INFO  00:54:14,516 - #14 void
+INFO  00:54:14,516 - #36 main
+INFO  00:54:14,516 - #12 (
+INFO  00:54:14,516 - #13 )
+INFO  00:54:14,516 - #3 {
+INFO  00:54:14,516 - #4 }
+INFO  00:54:14,517 - #4 }
+INFO  00:54:14,520 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_const(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      ConstDeclList(
+        Type(
+         char
+        ) [Type]
+        ConstDecl(
+         c
+          ConstantVar_bool(
+           0
+          ) [ConstantVar_bool]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclList]
+    ) [ConstVarEnumDeclList_const]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       broj
+        ConstantVar_num(
+         5
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:54:14,520 - =====================================================================
+ERROR 00:54:14,523 - Neadekvatna dodela vrednosti konstanti c na liniji 3
+INFO  00:54:14,523 - =====================================================================
+ERROR 00:54:14,524 - Parsiranje NIJE uspesno zavrseno!

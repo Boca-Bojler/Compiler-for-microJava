@@ -1,0 +1,106 @@
+INFO  20:24:14,035 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:24:14,055 - #2 program
+INFO  20:24:14,055 - #36 Vlasta
+INFO  20:24:14,055 - #5 const
+INFO  20:24:14,056 - #36 int
+INFO  20:24:14,056 - #36 pi
+INFO  20:24:14,057 - #7 =
+INFO  20:24:14,057 - #37 3
+INFO  20:24:14,057 - #6 ;
+INFO  20:24:14,058 - #36 int
+INFO  20:24:14,058 - #36 x
+INFO  20:24:14,058 - #8 ,
+INFO  20:24:14,058 - #36 y
+INFO  20:24:14,058 - #9 [
+INFO  20:24:14,058 - #10 ]
+INFO  20:24:14,058 - #6 ;
+INFO  20:24:14,059 - #3 {
+INFO  20:24:14,059 - #14 void
+INFO  20:24:14,059 - #36 main
+INFO  20:24:14,059 - #12 (
+INFO  20:24:14,059 - #13 )
+INFO  20:24:14,060 - #3 {
+INFO  20:24:14,060 - #17 print
+INFO  20:24:14,061 - #12 (
+INFO  20:24:14,061 - #37 1
+INFO  20:24:14,061 - #13 )
+INFO  20:24:14,062 - #6 ;
+INFO  20:24:14,062 - #4 }
+INFO  20:24:14,062 - #4 }
+INFO  20:24:14,066 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_var(
+    ConstVarEnumDeclList_const(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      ConstDeclList(
+        Type(
+         int
+        ) [Type]
+        ConstDecl(
+         pi
+          ConstantVar_num(
+           3
+          ) [ConstantVar_num]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclList]
+    ) [ConstVarEnumDeclList_const]
+    VarDeclList(
+      Type(
+       int
+      ) [Type]
+      VarDecl_std(
+       x
+      ) [VarDecl_std]
+      VarDeclMore_comma(
+        VarDecl_arr(
+         y
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclMore_comma]
+    ) [VarDeclList]
+  ) [ConstVarEnumDeclList_var]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_print(
+        Expr(
+          CondExpr_simple(
+            CondFact_single(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_num(
+                         1
+                        ) [FactorContext_num]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [CondFact_single]
+          ) [CondExpr_simple]
+        ) [Expr]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  20:24:14,066 - =====================================================================
+INFO  20:24:14,073 - Con (int): pi, 3, 0  na liniji 3
+INFO  20:24:14,073 - Var (int): x, 0, 0  na liniji 4
+INFO  20:24:14,073 - Array (int): y, 1, 0  na liniji 4
+INFO  20:24:14,073 - =====================================================================
+INFO  20:24:14,076 - Generisanje uspesno zavrseno!

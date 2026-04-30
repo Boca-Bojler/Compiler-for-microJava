@@ -1,0 +1,51 @@
+INFO  21:39:01,357 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:39:01,374 - #2 program
+INFO  21:39:01,374 - #36 Vlasta
+INFO  21:39:01,375 - #5 const
+INFO  21:39:01,375 - #36 int
+INFO  21:39:01,375 - #36 pi
+INFO  21:39:01,376 - #7 =
+INFO  21:39:01,376 - #37 3
+INFO  21:39:01,376 - #6 ;
+INFO  21:39:01,376 - #3 {
+INFO  21:39:01,377 - #14 void
+INFO  21:39:01,377 - #36 main
+INFO  21:39:01,377 - #12 (
+INFO  21:39:01,377 - #13 )
+INFO  21:39:01,377 - #3 {
+INFO  21:39:01,377 - #4 }
+INFO  21:39:01,378 - #4 }
+INFO  21:39:01,380 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        ConstantVar_num(
+         3
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  21:39:01,380 - =====================================================================
+INFO  21:39:01,384 - =====================================================================
+INFO  21:39:01,384 - Parsiranje uspesno zavrseno!

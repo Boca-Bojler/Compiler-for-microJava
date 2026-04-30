@@ -1,0 +1,52 @@
+INFO  00:53:09,639 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:53:09,721 - #2 program
+INFO  00:53:09,721 - #36 Vlasta
+INFO  00:53:09,722 - #5 const
+INFO  00:53:09,722 - #36 bool
+INFO  00:53:09,722 - #36 c
+INFO  00:53:09,723 - #7 =
+INFO  00:53:09,723 - #39 a
+INFO  00:53:09,723 - #6 ;
+INFO  00:53:09,724 - #3 {
+INFO  00:53:09,724 - #14 void
+INFO  00:53:09,724 - #36 main
+INFO  00:53:09,724 - #12 (
+INFO  00:53:09,724 - #13 )
+INFO  00:53:09,725 - #3 {
+INFO  00:53:09,725 - #4 }
+INFO  00:53:09,725 - #4 }
+INFO  00:53:09,728 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_char(
+         a
+        ) [ConstantVar_char]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:53:09,728 - =====================================================================
+ERROR 00:53:09,732 - Neadekvatna dodela vrednosti konstanti c na liniji 3
+INFO  00:53:09,732 - =====================================================================
+ERROR 00:53:09,732 - Parsiranje NIJE uspesno zavrseno!

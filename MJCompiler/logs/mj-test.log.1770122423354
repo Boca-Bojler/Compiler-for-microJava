@@ -1,0 +1,202 @@
+INFO  13:40:13,092 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:40:13,110 - #2 program
+INFO  13:40:13,110 - #36 Vlasta
+INFO  13:40:13,110 - #5 const
+INFO  13:40:13,111 - #36 char
+INFO  13:40:13,111 - #36 c
+INFO  13:40:13,111 - #7 =
+INFO  13:40:13,111 - #39 c
+INFO  13:40:13,111 - #6 ;
+INFO  13:40:13,112 - #5 const
+INFO  13:40:13,112 - #36 int
+INFO  13:40:13,112 - #36 broj
+INFO  13:40:13,112 - #7 =
+INFO  13:40:13,112 - #37 5
+INFO  13:40:13,112 - #6 ;
+INFO  13:40:13,112 - #36 int
+INFO  13:40:13,112 - #36 x
+INFO  13:40:13,112 - #9 [
+INFO  13:40:13,112 - #10 ]
+INFO  13:40:13,112 - #6 ;
+INFO  13:40:13,113 - #11 enum
+INFO  13:40:13,113 - #36 Broj
+INFO  13:40:13,113 - #3 {
+INFO  13:40:13,114 - #36 NULA
+INFO  13:40:13,114 - #8 ,
+INFO  13:40:13,114 - #36 JEDAN
+INFO  13:40:13,114 - #8 ,
+INFO  13:40:13,114 - #36 TRI
+INFO  13:40:13,114 - #7 =
+INFO  13:40:13,114 - #37 3
+INFO  13:40:13,114 - #8 ,
+INFO  13:40:13,114 - #36 PET
+INFO  13:40:13,114 - #7 =
+INFO  13:40:13,114 - #37 5
+INFO  13:40:13,114 - #4 }
+INFO  13:40:13,115 - #3 {
+INFO  13:40:13,115 - #14 void
+INFO  13:40:13,115 - #36 main
+INFO  13:40:13,115 - #12 (
+INFO  13:40:13,116 - #13 )
+INFO  13:40:13,116 - #36 int
+INFO  13:40:13,116 - #36 x
+INFO  13:40:13,116 - #9 [
+INFO  13:40:13,117 - #10 ]
+INFO  13:40:13,117 - #6 ;
+INFO  13:40:13,117 - #3 {
+INFO  13:40:13,117 - #17 print
+INFO  13:40:13,117 - #12 (
+INFO  13:40:13,117 - #36 x
+INFO  13:40:13,117 - #9 [
+INFO  13:40:13,118 - #37 5
+INFO  13:40:13,118 - #10 ]
+INFO  13:40:13,119 - #13 )
+INFO  13:40:13,119 - #6 ;
+INFO  13:40:13,119 - #4 }
+INFO  13:40:13,119 - #4 }
+INFO  13:40:13,122 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_const(
+          ConstVarEnumDeclList_eps(
+          ) [ConstVarEnumDeclList_eps]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDecl(
+             c
+              ConstantVar_char(
+               c
+              ) [ConstantVar_char]
+            ) [ConstDecl]
+            ConstDeclMore_eps(
+            ) [ConstDeclMore_eps]
+          ) [ConstDeclList]
+        ) [ConstVarEnumDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           broj
+            ConstantVar_num(
+             5
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_eps(
+      ) [VarDeclListRec_eps]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_print(
+        Expr(
+          CondExpr_simple(
+            CondFact_single(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_dsg(
+                          Designator_arr(
+                            DesArrName(
+                             x
+                            ) [DesArrName]
+                            Expr(
+                              CondExpr_simple(
+                                CondFact_single(
+                                  AddTermList_term(
+                                    Term(
+                                      MulFactorList_factor(
+                                        Factor(
+                                          Unary_std(
+                                            FactorContext_num(
+                                             5
+                                            ) [FactorContext_num]
+                                          ) [Unary_std]
+                                        ) [Factor]
+                                      ) [MulFactorList_factor]
+                                    ) [Term]
+                                  ) [AddTermList_term]
+                                ) [CondFact_single]
+                              ) [CondExpr_simple]
+                            ) [Expr]
+                          ) [Designator_arr]
+                        ) [FactorContext_dsg]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [CondFact_single]
+          ) [CondExpr_simple]
+        ) [Expr]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  13:40:13,122 - =====================================================================
+INFO  13:40:13,126 - =====================================================================
+INFO  13:40:13,126 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,72 @@
+INFO  00:53:53,199 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:53:53,218 - #2 program
+INFO  00:53:53,218 - #36 Vlasta
+INFO  00:53:53,218 - #5 const
+INFO  00:53:53,219 - #36 bool
+INFO  00:53:53,219 - #36 c
+INFO  00:53:53,219 - #7 =
+INFO  00:53:53,219 - #38 0
+INFO  00:53:53,220 - #6 ;
+INFO  00:53:53,220 - #5 const
+INFO  00:53:53,221 - #36 int
+INFO  00:53:53,221 - #36 broj
+INFO  00:53:53,221 - #7 =
+INFO  00:53:53,221 - #37 5
+INFO  00:53:53,221 - #6 ;
+INFO  00:53:53,221 - #3 {
+INFO  00:53:53,221 - #14 void
+INFO  00:53:53,221 - #36 main
+INFO  00:53:53,221 - #12 (
+INFO  00:53:53,221 - #13 )
+INFO  00:53:53,221 - #3 {
+INFO  00:53:53,222 - #4 }
+INFO  00:53:53,222 - #4 }
+INFO  00:53:53,224 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_const(
+      ConstVarEnumDeclList_eps(
+      ) [ConstVarEnumDeclList_eps]
+      ConstDeclList(
+        Type(
+         bool
+        ) [Type]
+        ConstDecl(
+         c
+          ConstantVar_bool(
+           0
+          ) [ConstantVar_bool]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclList]
+    ) [ConstVarEnumDeclList_const]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       broj
+        ConstantVar_num(
+         5
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:53:53,225 - =====================================================================
+INFO  00:53:53,228 - =====================================================================
+INFO  00:53:53,228 - Parsiranje uspesno zavrseno!

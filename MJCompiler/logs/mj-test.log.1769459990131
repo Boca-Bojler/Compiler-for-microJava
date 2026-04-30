@@ -1,0 +1,52 @@
+INFO  21:39:38,679 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:39:38,697 - #2 program
+INFO  21:39:38,697 - #36 Vlasta
+INFO  21:39:38,697 - #5 const
+INFO  21:39:38,698 - #36 byte
+INFO  21:39:38,698 - #36 pi
+INFO  21:39:38,698 - #7 =
+INFO  21:39:38,698 - #37 3
+INFO  21:39:38,698 - #6 ;
+INFO  21:39:38,699 - #3 {
+INFO  21:39:38,699 - #14 void
+INFO  21:39:38,699 - #36 main
+INFO  21:39:38,699 - #12 (
+INFO  21:39:38,700 - #13 )
+INFO  21:39:38,700 - #3 {
+INFO  21:39:38,700 - #4 }
+INFO  21:39:38,700 - #4 }
+INFO  21:39:38,702 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       byte
+      ) [Type]
+      ConstDecl(
+       pi
+        ConstantVar_num(
+         3
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  21:39:38,702 - =====================================================================
+ERROR 21:39:38,706 - Nepostojeci tip podatka: byte na liniji 3
+INFO  21:39:38,706 - =====================================================================
+ERROR 21:39:38,707 - Parsiranje NIJE uspesno zavrseno!

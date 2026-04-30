@@ -1,0 +1,200 @@
+INFO  19:01:15,679 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:01:15,697 - #2 program
+INFO  19:01:15,698 - #36 Vlasta
+INFO  19:01:15,698 - #5 const
+INFO  19:01:15,698 - #36 int
+INFO  19:01:15,698 - #36 pi
+INFO  19:01:15,699 - #7 =
+INFO  19:01:15,699 - #37 3
+INFO  19:01:15,699 - #6 ;
+INFO  19:01:15,700 - #36 int
+INFO  19:01:15,700 - #36 x
+INFO  19:01:15,700 - #8 ,
+INFO  19:01:15,700 - #36 y
+INFO  19:01:15,700 - #9 [
+INFO  19:01:15,700 - #10 ]
+INFO  19:01:15,700 - #6 ;
+INFO  19:01:15,701 - #11 enum
+INFO  19:01:15,701 - #36 Broj
+INFO  19:01:15,701 - #3 {
+INFO  19:01:15,701 - #36 JEDAN
+INFO  19:01:15,702 - #7 =
+INFO  19:01:15,702 - #37 1
+INFO  19:01:15,702 - #8 ,
+INFO  19:01:15,702 - #36 PET
+INFO  19:01:15,702 - #7 =
+INFO  19:01:15,703 - #37 5
+INFO  19:01:15,703 - #8 ,
+INFO  19:01:15,703 - #36 SEDAM
+INFO  19:01:15,703 - #4 }
+INFO  19:01:15,703 - #3 {
+INFO  19:01:15,703 - #14 void
+INFO  19:01:15,704 - #36 main
+INFO  19:01:15,704 - #12 (
+INFO  19:01:15,704 - #13 )
+INFO  19:01:15,704 - #36 int
+INFO  19:01:15,704 - #36 a
+INFO  19:01:15,704 - #8 ,
+INFO  19:01:15,704 - #36 b
+INFO  19:01:15,704 - #8 ,
+INFO  19:01:15,704 - #36 y
+INFO  19:01:15,705 - #9 [
+INFO  19:01:15,705 - #10 ]
+INFO  19:01:15,705 - #6 ;
+INFO  19:01:15,705 - #36 char
+INFO  19:01:15,705 - #36 carr
+INFO  19:01:15,705 - #9 [
+INFO  19:01:15,705 - #10 ]
+INFO  19:01:15,705 - #6 ;
+INFO  19:01:15,705 - #36 Broj
+INFO  19:01:15,705 - #36 pet
+INFO  19:01:15,706 - #6 ;
+INFO  19:01:15,706 - #3 {
+INFO  19:01:15,706 - #36 b
+INFO  19:01:15,706 - #7 =
+INFO  19:01:15,706 - #37 5
+INFO  19:01:15,706 - #17 print
+ERROR 19:01:15,706 - 
+Sintaksna greska na liniji 12
+INFO  19:01:15,707 - #12 (
+INFO  19:01:15,707 - #36 b
+INFO  19:01:15,707 - #13 )
+INFO  19:01:15,707 - #6 ;
+INFO  19:01:15,707 - #4 }
+INFO  19:01:15,707 - #4 }
+ERROR 19:01:15,710 - Oporavak od greske u DS. Linija: 51
+INFO  19:01:15,713 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_eps(
+        ) [ConstVarEnumDeclList_eps]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           pi
+            ConstantVar_num(
+             3
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_std(
+         x
+        ) [VarDecl_std]
+        VarDeclMore_comma(
+          VarDecl_arr(
+           y
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+      EnumName(
+       Broj
+      ) [EnumName]
+      EnumDecl_value(
+       JEDAN
+       1
+      ) [EnumDecl_value]
+      EnumDeclMore_comma(
+        EnumDecl_value(
+         PET
+         5
+        ) [EnumDecl_value]
+        EnumDeclMore_comma(
+          EnumDecl_std(
+           SEDAM
+          ) [EnumDecl_std]
+          EnumDeclMore_eps(
+          ) [EnumDeclMore_eps]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_eps(
+          ) [VarDeclListRec_eps]
+          VarDeclList(
+            Type(
+             int
+            ) [Type]
+            VarDecl_std(
+             a
+            ) [VarDecl_std]
+            VarDeclMore_comma(
+              VarDecl_std(
+               b
+              ) [VarDecl_std]
+              VarDeclMore_comma(
+                VarDecl_arr(
+                 y
+                ) [VarDecl_arr]
+                VarDeclMore_eps(
+                ) [VarDeclMore_eps]
+              ) [VarDeclMore_comma]
+            ) [VarDeclMore_comma]
+          ) [VarDeclList]
+        ) [VarDeclListRec_rec]
+        VarDeclList(
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList]
+      ) [VarDeclListRec_rec]
+      VarDeclList(
+        Type(
+         Broj
+        ) [Type]
+        VarDecl_std(
+         pet
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_dsg(
+        DesignatorStatement_error(
+        ) [DesignatorStatement_error]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  19:01:15,713 - =====================================================================
+INFO  19:01:15,717 - Con (int): pi, 3, 0  na liniji 3
+INFO  19:01:15,717 - Var (int): x, 0, 0  na liniji 4
+INFO  19:01:15,717 - Array (int): y, 1, 0  na liniji 4
+INFO  19:01:15,717 - Var (int): a, 0, 1  na liniji 9
+INFO  19:01:15,717 - Var (int): b, 1, 1  na liniji 9
+INFO  19:01:15,717 - Array (int): y, 2, 1  na liniji 9
+INFO  19:01:15,717 - Array (char): carr, 3, 1  na liniji 9
+INFO  19:01:15,717 - Var (int): pet, 4, 1  na liniji 9
+INFO  19:01:15,718 - =====================================================================
+ERROR 19:01:15,718 - Parsiranje NIJE uspesno zavrseno!

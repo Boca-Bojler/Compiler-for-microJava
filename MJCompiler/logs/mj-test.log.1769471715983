@@ -1,0 +1,11 @@
+INFO  00:54:59,244 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:54:59,263 - #2 program
+INFO  00:54:59,263 - #36 Vlasta
+INFO  00:54:59,264 - #5 const
+INFO  00:54:59,264 - #36 char
+INFO  00:54:59,264 - #36 c
+INFO  00:54:59,265 - #7 =
+INFO  00:54:59,270 - #36 camuga
+ERROR 00:54:59,270 - 
+Sintaksna greska na liniji 3
+ERROR 00:54:59,270 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

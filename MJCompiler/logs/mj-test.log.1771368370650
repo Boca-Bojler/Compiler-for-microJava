@@ -1,0 +1,111 @@
+INFO  23:45:57,967 - Compiling source file: C:\Users\vlast\Downloads\MJCompiler-20260216T205643Z-3-001\MJCompiler\test\program.mj
+INFO  23:45:57,987 - #2 program
+INFO  23:45:57,987 - #37 Vlasta
+INFO  23:45:57,987 - #18 final
+INFO  23:45:57,988 - #37 int
+INFO  23:45:57,988 - #37 x
+INFO  23:45:57,988 - #9 [
+INFO  23:45:57,989 - #10 ]
+INFO  23:45:57,989 - #6 ;
+INFO  23:45:57,989 - #3 {
+INFO  23:45:57,989 - #14 void
+INFO  23:45:57,989 - #37 main
+INFO  23:45:57,989 - #12 (
+INFO  23:45:57,990 - #13 )
+INFO  23:45:57,990 - #18 final
+INFO  23:45:57,990 - #37 int
+INFO  23:45:57,990 - #37 y
+INFO  23:45:57,990 - #9 [
+INFO  23:45:57,990 - #10 ]
+INFO  23:45:57,990 - #6 ;
+INFO  23:45:57,990 - #37 char
+INFO  23:45:57,991 - #37 carr
+INFO  23:45:57,991 - #9 [
+INFO  23:45:57,991 - #10 ]
+INFO  23:45:57,991 - #6 ;
+INFO  23:45:57,991 - #37 bool
+INFO  23:45:57,991 - #37 bt
+INFO  23:45:57,991 - #6 ;
+INFO  23:45:57,991 - #3 {
+INFO  23:45:57,991 - #4 }
+INFO  23:45:57,993 - #4 }
+INFO  23:45:57,994 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_var(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    VarDeclList_std(
+      Final_std(
+      ) [Final_std]
+      Type(
+       int
+      ) [Type]
+      VarDecl_arr(
+       x
+      ) [VarDecl_arr]
+      VarDeclMore_eps(
+      ) [VarDeclMore_eps]
+    ) [VarDeclList_std]
+  ) [ConstVarEnumDeclList_var]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_rec(
+        VarDeclListRec_rec(
+          VarDeclListRec_eps(
+          ) [VarDeclListRec_eps]
+          VarDeclList_std(
+            Final_std(
+            ) [Final_std]
+            Type(
+             int
+            ) [Type]
+            VarDecl_arr(
+             y
+            ) [VarDecl_arr]
+            VarDeclMore_eps(
+            ) [VarDeclMore_eps]
+          ) [VarDeclList_std]
+        ) [VarDeclListRec_rec]
+        VarDeclList_std(
+          Final_eps(
+          ) [Final_eps]
+          Type(
+           char
+          ) [Type]
+          VarDecl_arr(
+           carr
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclList_std]
+      ) [VarDeclListRec_rec]
+      VarDeclList_std(
+        Final_eps(
+        ) [Final_eps]
+        Type(
+         bool
+        ) [Type]
+        VarDecl_std(
+         bt
+        ) [VarDecl_std]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList_std]
+    ) [VarDeclListRec_rec]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  23:45:57,994 - =====================================================================
+INFO  23:45:58,000 - Array (int): x, 0, 0  na liniji 3
+INFO  23:45:58,000 - Array (int): y, 0, 1  na liniji 6
+ERROR 23:45:58,000 - GRESKA! Identifikator final iskoriscen nad lokalnim promenljivama na liniji 6
+INFO  23:45:58,000 - Array (char): carr, 1, 1  na liniji 6
+INFO  23:45:58,001 - Var (bool): bt, 2, 1  na liniji 6
+INFO  23:45:58,001 - =====================================================================
+ERROR 23:45:58,001 - Parsiranje NIJE uspesno zavrseno!

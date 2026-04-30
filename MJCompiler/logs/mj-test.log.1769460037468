@@ -1,0 +1,52 @@
+INFO  21:40:27,294 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:40:27,311 - #2 program
+INFO  21:40:27,311 - #36 Vlasta
+INFO  21:40:27,311 - #5 const
+INFO  21:40:27,312 - #36 boolaa
+INFO  21:40:27,312 - #36 c
+INFO  21:40:27,312 - #7 =
+INFO  21:40:27,312 - #38 0
+INFO  21:40:27,312 - #6 ;
+INFO  21:40:27,313 - #3 {
+INFO  21:40:27,314 - #14 void
+INFO  21:40:27,314 - #36 main
+INFO  21:40:27,314 - #12 (
+INFO  21:40:27,314 - #13 )
+INFO  21:40:27,314 - #3 {
+INFO  21:40:27,314 - #4 }
+INFO  21:40:27,315 - #4 }
+INFO  21:40:27,317 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       boolaa
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_bool(
+         0
+        ) [ConstantVar_bool]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  21:40:27,317 - =====================================================================
+ERROR 21:40:27,320 - Nepostojeci tip podatka: boolaa na liniji 3
+INFO  21:40:27,320 - =====================================================================
+ERROR 21:40:27,320 - Parsiranje NIJE uspesno zavrseno!

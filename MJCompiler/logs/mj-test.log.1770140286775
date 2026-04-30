@@ -1,0 +1,213 @@
+INFO  18:33:01,119 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:33:01,137 - #2 program
+INFO  18:33:01,137 - #36 Vlasta
+INFO  18:33:01,138 - #5 const
+INFO  18:33:01,138 - #36 char
+INFO  18:33:01,138 - #36 c
+INFO  18:33:01,138 - #7 =
+INFO  18:33:01,139 - #39 c
+INFO  18:33:01,139 - #6 ;
+INFO  18:33:01,139 - #5 const
+INFO  18:33:01,140 - #36 int
+INFO  18:33:01,140 - #36 broj
+INFO  18:33:01,140 - #7 =
+INFO  18:33:01,140 - #37 5
+INFO  18:33:01,140 - #6 ;
+INFO  18:33:01,140 - #36 int
+INFO  18:33:01,140 - #36 x
+INFO  18:33:01,140 - #9 [
+INFO  18:33:01,140 - #10 ]
+INFO  18:33:01,140 - #6 ;
+INFO  18:33:01,141 - #11 enum
+INFO  18:33:01,141 - #36 Broj
+INFO  18:33:01,141 - #3 {
+INFO  18:33:01,142 - #36 NULA
+INFO  18:33:01,142 - #8 ,
+INFO  18:33:01,142 - #36 JEDAN
+INFO  18:33:01,142 - #8 ,
+INFO  18:33:01,142 - #36 TRI
+INFO  18:33:01,142 - #7 =
+INFO  18:33:01,142 - #37 3
+INFO  18:33:01,142 - #8 ,
+INFO  18:33:01,142 - #36 PET
+INFO  18:33:01,142 - #7 =
+INFO  18:33:01,142 - #37 5
+INFO  18:33:01,143 - #4 }
+INFO  18:33:01,143 - #3 {
+INFO  18:33:01,143 - #14 void
+INFO  18:33:01,143 - #36 main
+INFO  18:33:01,143 - #12 (
+INFO  18:33:01,144 - #13 )
+INFO  18:33:01,144 - #36 char
+INFO  18:33:01,144 - #36 a
+INFO  18:33:01,144 - #8 ,
+INFO  18:33:01,145 - #36 x
+INFO  18:33:01,145 - #9 [
+INFO  18:33:01,145 - #10 ]
+INFO  18:33:01,145 - #6 ;
+INFO  18:33:01,145 - #3 {
+INFO  18:33:01,145 - #36 x
+INFO  18:33:01,145 - #7 =
+INFO  18:33:01,145 - #23 new
+INFO  18:33:01,146 - #36 int
+INFO  18:33:01,146 - #9 [
+INFO  18:33:01,146 - #37 5
+INFO  18:33:01,146 - #10 ]
+INFO  18:33:01,147 - #6 ;
+INFO  18:33:01,147 - #4 }
+INFO  18:33:01,147 - #4 }
+INFO  18:33:01,151 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_enum(
+    ConstVarEnumDeclList_var(
+      ConstVarEnumDeclList_const(
+        ConstVarEnumDeclList_const(
+          ConstVarEnumDeclList_eps(
+          ) [ConstVarEnumDeclList_eps]
+          ConstDeclList(
+            Type(
+             char
+            ) [Type]
+            ConstDecl(
+             c
+              ConstantVar_char(
+               c
+              ) [ConstantVar_char]
+            ) [ConstDecl]
+            ConstDeclMore_eps(
+            ) [ConstDeclMore_eps]
+          ) [ConstDeclList]
+        ) [ConstVarEnumDeclList_const]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          ConstDecl(
+           broj
+            ConstantVar_num(
+             5
+            ) [ConstantVar_num]
+          ) [ConstDecl]
+          ConstDeclMore_eps(
+          ) [ConstDeclMore_eps]
+        ) [ConstDeclList]
+      ) [ConstVarEnumDeclList_const]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        VarDecl_arr(
+         x
+        ) [VarDecl_arr]
+        VarDeclMore_eps(
+        ) [VarDeclMore_eps]
+      ) [VarDeclList]
+    ) [ConstVarEnumDeclList_var]
+    EnumDeclList(
+     Broj
+      EnumDecl_std(
+       NULA
+      ) [EnumDecl_std]
+      EnumDeclMore_comma(
+        EnumDecl_std(
+         JEDAN
+        ) [EnumDecl_std]
+        EnumDeclMore_comma(
+          EnumDecl_value(
+           TRI
+           3
+          ) [EnumDecl_value]
+          EnumDeclMore_comma(
+            EnumDecl_value(
+             PET
+             5
+            ) [EnumDecl_value]
+            EnumDeclMore_eps(
+            ) [EnumDeclMore_eps]
+          ) [EnumDeclMore_comma]
+        ) [EnumDeclMore_comma]
+      ) [EnumDeclMore_comma]
+    ) [EnumDeclList]
+  ) [ConstVarEnumDeclList_enum]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_rec(
+      VarDeclListRec_eps(
+      ) [VarDeclListRec_eps]
+      VarDeclList(
+        Type(
+         char
+        ) [Type]
+        VarDecl_std(
+         a
+        ) [VarDecl_std]
+        VarDeclMore_comma(
+          VarDecl_arr(
+           x
+          ) [VarDecl_arr]
+          VarDeclMore_eps(
+          ) [VarDeclMore_eps]
+        ) [VarDeclMore_comma]
+      ) [VarDeclList]
+    ) [VarDeclListRec_rec]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_dsg(
+        DesignatorStatement_expr(
+          Designator_std(
+           x
+          ) [Designator_std]
+          Assignop(
+          ) [Assignop]
+          Expr(
+            CondExpr_simple(
+              CondFact_single(
+                AddTermList_term(
+                  Term(
+                    MulFactorList_factor(
+                      Factor(
+                        Unary_std(
+                          FactorContext_arr(
+                            Type(
+                             int
+                            ) [Type]
+                            Expr(
+                              CondExpr_simple(
+                                CondFact_single(
+                                  AddTermList_term(
+                                    Term(
+                                      MulFactorList_factor(
+                                        Factor(
+                                          Unary_std(
+                                            FactorContext_num(
+                                             5
+                                            ) [FactorContext_num]
+                                          ) [Unary_std]
+                                        ) [Factor]
+                                      ) [MulFactorList_factor]
+                                    ) [Term]
+                                  ) [AddTermList_term]
+                                ) [CondFact_single]
+                              ) [CondExpr_simple]
+                            ) [Expr]
+                          ) [FactorContext_arr]
+                        ) [Unary_std]
+                      ) [Factor]
+                    ) [MulFactorList_factor]
+                  ) [Term]
+                ) [AddTermList_term]
+              ) [CondFact_single]
+            ) [CondExpr_simple]
+          ) [Expr]
+        ) [DesignatorStatement_expr]
+      ) [Statement_dsg]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  18:33:01,151 - =====================================================================
+ERROR 18:33:01,155 - GRESKA! Velicina niza je ne-int vrednost na liniji 14

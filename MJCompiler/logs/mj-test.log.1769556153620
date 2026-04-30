@@ -1,0 +1,41 @@
+INFO  00:21:24,155 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:21:24,175 - #2 program
+INFO  00:21:24,175 - #36 Vlasta
+INFO  00:21:24,175 - #5 const
+INFO  00:21:24,176 - #36 char
+INFO  00:21:24,176 - #36 c
+INFO  00:21:24,176 - #7 =
+INFO  00:21:24,176 - #39 c
+INFO  00:21:24,177 - #6 ;
+INFO  00:21:24,177 - #5 const
+INFO  00:21:24,177 - #36 int
+INFO  00:21:24,178 - #36 broj
+INFO  00:21:24,178 - #7 =
+INFO  00:21:24,178 - #37 5
+INFO  00:21:24,178 - #6 ;
+INFO  00:21:24,178 - #11 enum
+INFO  00:21:24,178 - #36 Broj
+INFO  00:21:24,178 - #3 {
+INFO  00:21:24,178 - #36 NULA
+INFO  00:21:24,178 - #8 ,
+INFO  00:21:24,178 - #36 JEDAN
+INFO  00:21:24,178 - #8 ,
+INFO  00:21:24,178 - #36 TRI
+INFO  00:21:24,179 - #7 =
+INFO  00:21:24,179 - #37 3
+INFO  00:21:24,179 - #8 ,
+INFO  00:21:24,179 - #36 PET
+INFO  00:21:24,179 - #7 =
+INFO  00:21:24,179 - #37 5
+INFO  00:21:24,179 - #4 }
+INFO  00:21:24,179 - #3 {
+INFO  00:21:24,180 - #14 void
+INFO  00:21:24,180 - #36 main
+INFO  00:21:24,180 - #12 (
+INFO  00:21:24,181 - #13 )
+INFO  00:21:24,181 - #36 int
+INFO  00:21:24,181 - #36 x
+INFO  00:21:24,181 - #3 {
+ERROR 00:21:24,181 - 
+Sintaksna greska na liniji 7
+ERROR 00:21:24,181 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

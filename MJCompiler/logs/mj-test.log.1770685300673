@@ -1,0 +1,80 @@
+INFO  02:00:47,025 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:00:47,043 - #2 program
+INFO  02:00:47,043 - #36 Vlasta
+INFO  02:00:47,043 - #5 const
+INFO  02:00:47,044 - #36 int
+INFO  02:00:47,044 - #36 pi
+INFO  02:00:47,045 - #7 =
+INFO  02:00:47,045 - #37 3
+INFO  02:00:47,045 - #6 ;
+INFO  02:00:47,045 - #3 {
+INFO  02:00:47,046 - #14 void
+INFO  02:00:47,046 - #36 main
+INFO  02:00:47,046 - #12 (
+INFO  02:00:47,046 - #13 )
+INFO  02:00:47,046 - #3 {
+INFO  02:00:47,046 - #17 print
+INFO  02:00:47,047 - #12 (
+INFO  02:00:47,047 - #37 1
+INFO  02:00:47,047 - #13 )
+INFO  02:00:47,048 - #6 ;
+INFO  02:00:47,048 - #4 }
+INFO  02:00:47,048 - #4 }
+INFO  02:00:47,050 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       int
+      ) [Type]
+      ConstDecl(
+       pi
+        ConstantVar_num(
+         3
+        ) [ConstantVar_num]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_statement(
+      StatementList_eps(
+      ) [StatementList_eps]
+      Statement_print(
+        Expr(
+          CondExpr_simple(
+            CondFact_single(
+              AddTermList_term(
+                Term(
+                  MulFactorList_factor(
+                    Factor(
+                      Unary_std(
+                        FactorContext_num(
+                         1
+                        ) [FactorContext_num]
+                      ) [Unary_std]
+                    ) [Factor]
+                  ) [MulFactorList_factor]
+                ) [Term]
+              ) [AddTermList_term]
+            ) [CondFact_single]
+          ) [CondExpr_simple]
+        ) [Expr]
+      ) [Statement_print]
+    ) [StatementList_statement]
+  ) [MethodDecl]
+) [Program]
+INFO  02:00:47,051 - =====================================================================
+INFO  02:00:47,056 - Con (int): pi, 3, 0  na liniji 3
+INFO  02:00:47,056 - =====================================================================
+INFO  02:00:47,058 - Generisanje uspesno zavrseno!

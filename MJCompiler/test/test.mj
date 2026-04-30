@@ -1,0 +1,26 @@
+program Vlasta 
+
+const char c = 'c';
+const int broj = 5;
+int x[];
+enum Broj {NULA, JEDAN, TRI = 3, PET = 5}
+{
+	void main() 
+		char a, x[], y[]; 
+		int b, c, d[], e[]; 
+		Broj nula;
+	{
+		nula = Broj.NULA;
+		b = y.length;
+		//c = a;
+		//x[0] = x[1];
+		//read(a);
+		//print(x, 4);
+		x = new char[5];
+		b = 5*(c+5);
+		b = d[Broj.JEDAN];
+		c = d == e ? d[2] + 3 * 7 : e[0] - d[1];
+		//b = Broj.SEDAM;
+		
+	}
+}

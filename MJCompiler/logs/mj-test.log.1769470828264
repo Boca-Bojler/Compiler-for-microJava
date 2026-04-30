@@ -1,0 +1,52 @@
+INFO  00:37:32,967 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:37:32,986 - #2 program
+INFO  00:37:32,986 - #36 Vlasta
+INFO  00:37:32,986 - #5 const
+INFO  00:37:32,987 - #36 bool
+INFO  00:37:32,987 - #36 c
+INFO  00:37:32,987 - #7 =
+INFO  00:37:32,987 - #39 a
+INFO  00:37:32,988 - #6 ;
+INFO  00:37:32,988 - #3 {
+INFO  00:37:32,989 - #14 void
+INFO  00:37:32,989 - #36 main
+INFO  00:37:32,989 - #12 (
+INFO  00:37:32,989 - #13 )
+INFO  00:37:32,989 - #3 {
+INFO  00:37:32,989 - #4 }
+INFO  00:37:32,990 - #4 }
+INFO  00:37:32,991 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_char(
+         a
+        ) [ConstantVar_char]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:37:32,992 - =====================================================================
+ERROR 00:37:32,995 - Tip rs.etf.pp1.symboltable.concepts.Struct@239963d8nije moguce dodeliti konstanti tipa rs.etf.pp1.symboltable.concepts.Struct@3abbfa04 na liniji 3
+INFO  00:37:32,995 - =====================================================================
+ERROR 00:37:32,996 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,52 @@
+INFO  00:40:28,271 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:40:28,289 - #2 program
+INFO  00:40:28,289 - #36 Vlasta
+INFO  00:40:28,289 - #5 const
+INFO  00:40:28,290 - #36 bool
+INFO  00:40:28,290 - #36 c
+INFO  00:40:28,291 - #7 =
+INFO  00:40:28,291 - #39 a
+INFO  00:40:28,291 - #6 ;
+INFO  00:40:28,292 - #3 {
+INFO  00:40:28,292 - #14 void
+INFO  00:40:28,292 - #36 main
+INFO  00:40:28,292 - #12 (
+INFO  00:40:28,292 - #13 )
+INFO  00:40:28,292 - #3 {
+INFO  00:40:28,293 - #4 }
+INFO  00:40:28,293 - #4 }
+INFO  00:40:28,295 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_char(
+         a
+        ) [ConstantVar_char]
+      ) [ConstDecl]
+      ConstDeclMore_eps(
+      ) [ConstDeclMore_eps]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:40:28,296 - =====================================================================
+ERROR 00:40:28,301 - Tip 2nije moguce dodeliti konstanti tipa 5 na liniji 3
+INFO  00:40:28,301 - =====================================================================
+ERROR 00:40:28,301 - Parsiranje NIJE uspesno zavrseno!

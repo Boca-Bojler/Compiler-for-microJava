@@ -1,0 +1,27 @@
+INFO  18:21:18,766 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:21:18,785 - #2 program
+INFO  18:21:18,785 - #36 Vlasta
+INFO  18:21:18,785 - #3 {
+INFO  18:21:18,786 - #14 void
+INFO  18:21:18,786 - #36 main
+INFO  18:21:18,786 - #12 (
+INFO  18:21:18,786 - #13 )
+INFO  18:21:18,786 - #3 {
+INFO  18:21:18,787 - #4 }
+INFO  18:21:18,787 - #4 }
+INFO  18:21:18,789 - Program(
+ Vlasta
+  ConstVarEnumDeclList_eps(
+  ) [ConstVarEnumDeclList_eps]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  18:21:18,789 - =====================================================================
+INFO  18:21:18,789 - Parsiranje uspesno zavrseno!

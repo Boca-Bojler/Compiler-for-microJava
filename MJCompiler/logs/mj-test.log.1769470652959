@@ -1,0 +1,64 @@
+INFO  00:19:33,907 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:19:33,980 - #2 program
+INFO  00:19:33,980 - #36 Vlasta
+INFO  00:19:33,980 - #5 const
+INFO  00:19:33,981 - #36 bool
+INFO  00:19:33,981 - #36 c
+INFO  00:19:33,981 - #7 =
+INFO  00:19:33,982 - #38 1
+INFO  00:19:33,982 - #8 ,
+INFO  00:19:33,982 - #36 c
+INFO  00:19:33,982 - #7 =
+INFO  00:19:33,982 - #38 0
+INFO  00:19:33,982 - #6 ;
+INFO  00:19:33,983 - #3 {
+INFO  00:19:33,983 - #14 void
+INFO  00:19:33,983 - #36 main
+INFO  00:19:33,983 - #12 (
+INFO  00:19:33,983 - #13 )
+INFO  00:19:33,983 - #3 {
+INFO  00:19:33,984 - #4 }
+INFO  00:19:33,984 - #4 }
+INFO  00:19:33,986 - Program(
+  ProgramName(
+   Vlasta
+  ) [ProgramName]
+  ConstVarEnumDeclList_const(
+    ConstVarEnumDeclList_eps(
+    ) [ConstVarEnumDeclList_eps]
+    ConstDeclList(
+      Type(
+       bool
+      ) [Type]
+      ConstDecl(
+       c
+        ConstantVar_bool(
+         1
+        ) [ConstantVar_bool]
+      ) [ConstDecl]
+      ConstDeclMore_comma(
+        ConstDecl(
+         c
+          ConstantVar_bool(
+           0
+          ) [ConstantVar_bool]
+        ) [ConstDecl]
+        ConstDeclMore_eps(
+        ) [ConstDeclMore_eps]
+      ) [ConstDeclMore_comma]
+    ) [ConstDeclList]
+  ) [ConstVarEnumDeclList_const]
+  MethodDecl(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclListRec_eps(
+    ) [VarDeclListRec_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodDecl]
+) [Program]
+INFO  00:19:33,987 - =====================================================================
+ERROR 00:19:33,991 - Dvostruka definicija konstante c na liniji 3
+INFO  00:19:33,991 - =====================================================================
+ERROR 00:19:33,991 - Parsiranje NIJE uspesno zavrseno!

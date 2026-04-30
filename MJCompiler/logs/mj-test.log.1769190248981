@@ -1,0 +1,19 @@
+INFO  18:43:50,397 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:43:50,415 - #2 program
+INFO  18:43:50,415 - #36 Vlasta
+INFO  18:43:50,415 - #5 const
+INFO  18:43:50,416 - #36 int
+INFO  18:43:50,416 - #36 x
+INFO  18:43:50,416 - #7 =
+INFO  18:43:50,416 - #37 3
+INFO  18:43:50,416 - #8 ,
+INFO  18:43:50,417 - #36 y
+INFO  18:43:50,417 - #7 =
+INFO  18:43:50,417 - #37 7
+INFO  18:43:50,417 - #6 ;
+INFO  18:43:50,417 - #36 bool
+INFO  18:43:50,418 - #36 t
+INFO  18:43:50,418 - #7 =
+ERROR 18:43:50,418 - 
+Sintaksna greska na liniji 4
+ERROR 18:43:50,418 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

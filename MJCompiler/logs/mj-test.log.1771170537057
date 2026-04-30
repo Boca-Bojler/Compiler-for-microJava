@@ -1,0 +1,45 @@
+INFO  16:48:45,471 - Compiling source file: C:\Users\vlast\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:48:45,491 - #2 program
+INFO  16:48:45,491 - #36 Vlasta
+INFO  16:48:45,491 - #11 enum
+INFO  16:48:45,492 - #36 Broj
+INFO  16:48:45,492 - #3 {
+INFO  16:48:45,492 - #36 NULA
+INFO  16:48:45,492 - #8 ,
+INFO  16:48:45,492 - #36 PET
+INFO  16:48:45,493 - #7 =
+INFO  16:48:45,493 - #37 5
+INFO  16:48:45,493 - #4 }
+INFO  16:48:45,493 - #11 enum
+INFO  16:48:45,493 - #36 Test
+INFO  16:48:45,494 - #3 {
+INFO  16:48:45,494 - #36 BRAT
+INFO  16:48:45,494 - #4 }
+INFO  16:48:45,494 - #3 {
+INFO  16:48:45,494 - #14 void
+INFO  16:48:45,494 - #36 main
+INFO  16:48:45,494 - #12 (
+INFO  16:48:45,494 - #13 )
+INFO  16:48:45,494 - #36 int
+INFO  16:48:45,495 - #36 a
+INFO  16:48:45,495 - #8 ,
+INFO  16:48:45,495 - #36 b
+INFO  16:48:45,495 - #8 ,
+INFO  16:48:45,495 - #36 y
+INFO  16:48:45,495 - #9 [
+INFO  16:48:45,495 - #10 ]
+INFO  16:48:45,495 - #6 ;
+INFO  16:48:45,497 - #36 char
+INFO  16:48:45,497 - #36 carr
+INFO  16:48:45,497 - #9 [
+INFO  16:48:45,498 - #10 ]
+INFO  16:48:45,498 - #6 ;
+INFO  16:48:45,498 - #36 Broj
+INFO  16:48:45,498 - #36 var
+INFO  16:48:45,498 - #6 ;
+INFO  16:48:45,498 - #36 bool
+INFO  16:48:45,498 - #36 bt
+INFO  16:48:45,498 - #3 {
+ERROR 16:48:45,498 - 
+Sintaksna greska na liniji 7
+ERROR 16:48:45,498 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
